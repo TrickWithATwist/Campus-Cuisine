@@ -15,7 +15,7 @@ struct ContentView: View {
             //establishing tab items
             /* Each tab item name is printed and the other details such as icons and other attributes are added in as modifiers*/
             //home
-            Text("Home").tabItem()
+            View1().tabItem()
             {
                 Label("Home", systemImage: "house")
             }
@@ -25,15 +25,16 @@ struct ContentView: View {
                 Label("Search", systemImage: "fork.knife.circle")
             }
             //map
-            Text("Map").tabItem()
+            View3().tabItem()
             {
                 Label("Map", systemImage: "map")
             }
             //Star
-            Text("Star").tabItem()
+            View4().tabItem()
             {
                 Label("Favorites", systemImage: "star")
             }
+            /* Essentially what this tab view is doing is allowing use to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
             
         }
 
