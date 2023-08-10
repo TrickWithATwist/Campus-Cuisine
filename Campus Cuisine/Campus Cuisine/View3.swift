@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct View3: View {
-    var body: some View {
+    var body: some View
+    {
         VStack
         {
             Text("This is screen 3")
