@@ -2,14 +2,17 @@
 //  View3.swift
 //  Campus Cuisine
 //
-//  
+//
 //
 
 import SwiftUI
 
 struct View3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack
+        {
+            Text("This is screen 3")
+        }.padding(.all).background(Color.cyan)
     }
 }
 
