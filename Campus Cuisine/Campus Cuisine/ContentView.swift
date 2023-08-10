@@ -20,7 +20,7 @@ struct ContentView: View {
                 Label("Home", systemImage: "house")
             }
             //search
-            Text("Search").tabItem()
+            View2().tabItem()
             {
                 Label("Search", systemImage: "fork.knife.circle")
             }
