@@ -13,8 +13,6 @@ struct View2: View {
         /*creating button to go to other view file
          by establishing NavigationView and setting
          up button properities*/
-        NavigationView
-        {
             VStack()
             {
                 /*Creating butto with string protocal
@@ -30,7 +28,6 @@ struct View2: View {
                 Text("this is screen 3")
             }.padding(.all).background(Color.green)
             //temporarly adding padding and color
-        }
     }
 }
 
