@@ -9,9 +9,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View
     {
-        //creating mutuable variable selection for tab
-        @State var selection = "home"
-        /*this allows tabview content $selection to be in scope*/
         /* Establishing the tab bar and essential attributes of it*/
         TabView()
         {
