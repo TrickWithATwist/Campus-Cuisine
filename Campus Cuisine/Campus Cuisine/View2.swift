@@ -2,8 +2,7 @@
 //  View2.swift
 //  Campus Cuisine
 //
-//  Created by Akram Djomehri on 8/10/23.
-//
+//  //
 
 import SwiftUI
 
