@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		692A59312A828BEB00B5E6D8 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A59302A828BEB00B5E6D8 /* testApp.swift */; };
-		692A59332A828BEB00B5E6D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A59322A828BEB00B5E6D8 /* ContentView.swift */; };
-		692A59352A828BEC00B5E6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692A59342A828BEC00B5E6D8 /* Assets.xcassets */; };
-		692A59382A828BEC00B5E6D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692A59372A828BEC00B5E6D8 /* Preview Assets.xcassets */; };
-		692A593F2A83DDA300B5E6D8 /* screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A593E2A83DDA300B5E6D8 /* screen1.swift */; };
+		690F07D42A84FCC30017AFC2 /* Campus_CuisineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */; };
+		690F07D62A84FCC30017AFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F07D52A84FCC30017AFC2 /* ContentView.swift */; };
+		690F07D82A84FCC40017AFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690F07D72A84FCC40017AFC2 /* Assets.xcassets */; };
+		690F07DB2A84FCC40017AFC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690F07DA2A84FCC40017AFC2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		692A592D2A828BEB00B5E6D8 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		692A59302A828BEB00B5E6D8 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
-		692A59322A828BEB00B5E6D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		692A59342A828BEC00B5E6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		692A59372A828BEC00B5E6D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		692A593E2A83DDA300B5E6D8 /* screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen1.swift; sourceTree = "<group>"; };
+		690F07D02A84FCC30017AFC2 /* Campus Cuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Cuisine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_CuisineApp.swift; sourceTree = "<group>"; };
+		690F07D52A84FCC30017AFC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		690F07D72A84FCC40017AFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690F07DA2A84FCC40017AFC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		692A592A2A828BEB00B5E6D8 /* Frameworks */ = {
+		690F07CD2A84FCC30017AFC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		692A59242A828BEB00B5E6D8 = {
+		690F07C72A84FCC30017AFC2 = {
 			isa = PBXGroup;
 			children = (
-				692A592F2A828BEB00B5E6D8 /* test */,
-				692A592E2A828BEB00B5E6D8 /* Products */,
+				690F07D22A84FCC30017AFC2 /* Campus Cuisine */,
+				690F07D12A84FCC30017AFC2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		692A592E2A828BEB00B5E6D8 /* Products */ = {
+		690F07D12A84FCC30017AFC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				692A592D2A828BEB00B5E6D8 /* test.app */,
+				690F07D02A84FCC30017AFC2 /* Campus Cuisine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		692A592F2A828BEB00B5E6D8 /* test */ = {
+		690F07D22A84FCC30017AFC2 /* Campus Cuisine */ = {
 			isa = PBXGroup;
 			children = (
-				692A59302A828BEB00B5E6D8 /* testApp.swift */,
-				692A59322A828BEB00B5E6D8 /* ContentView.swift */,
-				692A593E2A83DDA300B5E6D8 /* screen1.swift */,
-				692A59342A828BEC00B5E6D8 /* Assets.xcassets */,
-				692A59362A828BEC00B5E6D8 /* Preview Content */,
+				690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */,
+				690F07D52A84FCC30017AFC2 /* ContentView.swift */,
+				690F07D72A84FCC40017AFC2 /* Assets.xcassets */,
+				690F07D92A84FCC40017AFC2 /* Preview Content */,
 			);
-			path = test;
+			path = "Campus Cuisine";
 			sourceTree = "<group>";
 		};
-		692A59362A828BEC00B5E6D8 /* Preview Content */ = {
+		690F07D92A84FCC40017AFC2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				692A59372A828BEC00B5E6D8 /* Preview Assets.xcassets */,
+				690F07DA2A84FCC40017AFC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		692A592C2A828BEB00B5E6D8 /* test */ = {
+		690F07CF2A84FCC30017AFC2 /* Campus Cuisine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 692A593B2A828BEC00B5E6D8 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 690F07DE2A84FCC40017AFC2 /* Build configuration list for PBXNativeTarget "Campus Cuisine" */;
 			buildPhases = (
-				692A59292A828BEB00B5E6D8 /* Sources */,
-				692A592A2A828BEB00B5E6D8 /* Frameworks */,
-				692A592B2A828BEB00B5E6D8 /* Resources */,
+				690F07CC2A84FCC30017AFC2 /* Sources */,
+				690F07CD2A84FCC30017AFC2 /* Frameworks */,
+				690F07CE2A84FCC30017AFC2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = test;
-			productName = test;
-			productReference = 692A592D2A828BEB00B5E6D8 /* test.app */;
+			name = "Campus Cuisine";
+			productName = "Campus Cuisine";
+			productReference = 690F07D02A84FCC30017AFC2 /* Campus Cuisine.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		692A59252A828BEB00B5E6D8 /* Project object */ = {
+		690F07C82A84FCC30017AFC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					692A592C2A828BEB00B5E6D8 = {
+					690F07CF2A84FCC30017AFC2 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 692A59282A828BEB00B5E6D8 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 690F07CB2A84FCC30017AFC2 /* Build configuration list for PBXProject "Campus Cuisine" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 692A59242A828BEB00B5E6D8;
-			productRefGroup = 692A592E2A828BEB00B5E6D8 /* Products */;
+			mainGroup = 690F07C72A84FCC30017AFC2;
+			productRefGroup = 690F07D12A84FCC30017AFC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				692A592C2A828BEB00B5E6D8 /* test */,
+				690F07CF2A84FCC30017AFC2 /* Campus Cuisine */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		692A592B2A828BEB00B5E6D8 /* Resources */ = {
+		690F07CE2A84FCC30017AFC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692A59382A828BEC00B5E6D8 /* Preview Assets.xcassets in Resources */,
-				692A59352A828BEC00B5E6D8 /* Assets.xcassets in Resources */,
+				690F07DB2A84FCC40017AFC2 /* Preview Assets.xcassets in Resources */,
+				690F07D82A84FCC40017AFC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		692A59292A828BEB00B5E6D8 /* Sources */ = {
+		690F07CC2A84FCC30017AFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692A59332A828BEB00B5E6D8 /* ContentView.swift in Sources */,
-				692A59312A828BEB00B5E6D8 /* testApp.swift in Sources */,
-				692A593F2A83DDA300B5E6D8 /* screen1.swift in Sources */,
+				690F07D62A84FCC30017AFC2 /* ContentView.swift in Sources */,
+				690F07D42A84FCC30017AFC2 /* Campus_CuisineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		692A59392A828BEC00B5E6D8 /* Debug */ = {
+		690F07DC2A84FCC40017AFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		692A593A2A828BEC00B5E6D8 /* Release */ = {
+		690F07DD2A84FCC40017AFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		692A593C2A828BEC00B5E6D8 /* Debug */ = {
+		690F07DF2A84FCC40017AFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Campus Cuisine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -283,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yourmom.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "yourmom.Campus-Cuisine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		692A593D2A828BEC00B5E6D8 /* Release */ = {
+		690F07E02A84FCC40017AFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Campus Cuisine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yourmom.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "yourmom.Campus-Cuisine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		692A59282A828BEB00B5E6D8 /* Build configuration list for PBXProject "test" */ = {
+		690F07CB2A84FCC30017AFC2 /* Build configuration list for PBXProject "Campus Cuisine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				692A59392A828BEC00B5E6D8 /* Debug */,
-				692A593A2A828BEC00B5E6D8 /* Release */,
+				690F07DC2A84FCC40017AFC2 /* Debug */,
+				690F07DD2A84FCC40017AFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		692A593B2A828BEC00B5E6D8 /* Build configuration list for PBXNativeTarget "test" */ = {
+		690F07DE2A84FCC40017AFC2 /* Build configuration list for PBXNativeTarget "Campus Cuisine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				692A593C2A828BEC00B5E6D8 /* Debug */,
-				692A593D2A828BEC00B5E6D8 /* Release */,
+				690F07DF2A84FCC40017AFC2 /* Debug */,
+				690F07E02A84FCC40017AFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 692A59252A828BEB00B5E6D8 /* Project object */;
+	rootObject = 690F07C82A84FCC30017AFC2 /* Project object */;
 }
