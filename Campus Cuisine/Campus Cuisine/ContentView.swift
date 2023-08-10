@@ -19,13 +19,18 @@ struct ContentView: View {
                 /*Creating butto with string protocal
                  "Search." When it is tapped the
                  view will change to View 2*/
-                NavigationLink("Search")
+                NavigationLink("Tap for screen 2")
                 {
                     View2()
                 }
+                
+                //printing text to label screen
+                //temp for dev
+                Text("this is screen 1")
             }.padding(.all).background(Color.red)
             //temporarly adding padding and color
         }
+        
     }
 }
 

@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct View2: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    var body: some View
+    {
+        /*creating button to go to other view file
+         by establishing NavigationView and setting
+         up button properities*/
+        NavigationView
+        {
+            VStack()
+            {
+                /*Creating butto with string protocal
+                 "Search." When it is tapped the
+                 view will change to View 2*/
+                NavigationLink("Tap for screen2")
+                {
+                    View3()
+                }
+                
+                //printing text to label screen
+                //temp for dev
+                Text("this is screen 3")
+            }.padding(.all).background(Color.green)
+            //temporarly adding padding and color
+        }
     }
 }
 
