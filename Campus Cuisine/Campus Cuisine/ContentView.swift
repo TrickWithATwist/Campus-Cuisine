@@ -27,6 +27,14 @@ struct ContentView: View {
                 //temp for dev
                 Text("this is screen 1")
             }.padding(.all).background(Color.red)
+                .toolbar
+            {
+                ToolbarItem(placement: .bottomBar)
+                {
+                    Image(systemName: "gear")
+                        .frame(alignment: .bottomTrailing)
+                }
+            }
             //temporarly adding padding and color
         }
         
