@@ -30,11 +30,25 @@ struct ContentView: View {
                 .toolbar
             {
                 /* Established toolbar attribute to the V stack and Created list of items and the brakckets of each item contain their attributes i.e. Image appearance, etc*/
+                //creating gear item
                 ToolbarItem(placement: .bottomBar)
                 {
                     Image(systemName: "gear")
                         .frame(alignment: .bottomTrailing)
                 }
+                //creating house item
+                ToolbarItem(placement: .bottomBar)
+                {
+                    Image(systemName: "house.fill")
+                        .frame(alignment: .bottomTrailing)
+                }
+                //creating profile icon item
+                ToolbarItem(placement: .bottomBar)
+                {
+                    Image(systemName: "star.fill")
+                        .frame(alignment: .bottomTrailing)
+                }
+
             }
             //temporarly adding padding and color
         }
