@@ -29,6 +29,7 @@ struct ContentView: View {
             }.padding(.all).background(Color.red)
                 .toolbar
             {
+                /* Established toolbar attribute to the V stack and Created list of items and the brakckets of each item contain their attributes i.e. Image appearance, etc*/
                 ToolbarItem(placement: .bottomBar)
                 {
                     Image(systemName: "gear")
