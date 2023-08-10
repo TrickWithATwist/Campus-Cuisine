@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        /*creating button to go to other view file
+         by establishing NavigationView and setting
+         up button properities*/
+        NavigationView
+        {
+            VStack()
+            {
+                /*Creating butto with string protocal
+                 "Search." When it is tapped the
+                 view will change to View 2*/
+                NavigationLink("Search")
+                {
+                    View2()
+                }
+            }.padding(.all).background(Color.red)
+            //temporarly adding padding and color
         }
-        .padding()
     }
 }
 
