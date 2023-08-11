@@ -32,7 +32,11 @@ struct View1: View {
 struct SeeAllView: View {
     var body: some View
     {
-        Text("See all screen")
+        Color.black.ignoresSafeArea().overlay(
+        HStack
+        {
+            Text("See all screen").foregroundColor(.white)
+        })
     }
 }
 
