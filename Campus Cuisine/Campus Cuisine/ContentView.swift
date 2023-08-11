@@ -34,11 +34,11 @@ struct ContentView: View {
             {
                 Label("Favorites", systemImage: "star")
             }
-            /* Essentially what this tab view is doing is allowing use to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
+            /* Essentially what this tab view is doing is allowing us to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
             
         }
 
-        Text("hello")
+        //Text("hello")
         
     }
         
