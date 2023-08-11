@@ -10,10 +10,15 @@ import SwiftUI
 struct View1: View {
     var body: some View
     {
-        //adding background
-        ZStack
+        VStack
         {
-            Color.gray
+            //adding text for view
+            Text("Categories")
+            //adding background
+            ZStack
+            {
+                Color.gray
+            }
         }
     }
 }
