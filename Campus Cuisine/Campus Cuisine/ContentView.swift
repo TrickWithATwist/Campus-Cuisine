@@ -6,6 +6,15 @@
 
 import SwiftUI
 
+//establishing extension to get values of screen dimensions
+extension UIScreen
+{
+   static let screenWidth = UIScreen.main.bounds.size.width
+   static let screenHeight = UIScreen.main.bounds.size.height
+   static let screenSize = UIScreen.main.bounds.size
+}
+
+
 struct ContentView: View {
     var body: some View
     {
@@ -18,22 +27,24 @@ struct ContentView: View {
             View1().tabItem()
             {
                 Label("Home", systemImage: "house")
-            }
+            }.padding(.bottom).background(Color.white).frame(height: 720)
+            /* adding the padding to the tab item so that the white frame for the bar is still present*/
+
             //search
             View2().tabItem()
             {
                 Label("Search", systemImage: "fork.knife.circle")
-            }
+            }.padding(.bottom).background(Color.white).frame(height: 720)
             //map
             View3().tabItem()
             {
                 Label("Map", systemImage: "map")
-            }
+            }.padding(.bottom).background(Color.white).frame(height: 720)
             //Star
             View4().tabItem()
             {
                 Label("Favorites", systemImage: "star")
-            }
+            }.padding(.bottom).background(Color.white).frame(height: 720)
             /* Essentially what this tab view is doing is allowing us to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
             
         }
