@@ -10,11 +10,11 @@ import SwiftUI
 struct View3: View {
     var body: some View
     {
-        //adding background
-        ZStack
+        Color.black.ignoresSafeArea().overlay(
+        VStack
         {
-            Color.gray
-        }
+            Text("Map placeholder").foregroundColor(.white)
+        })
     }
 }
 
