@@ -10,10 +10,11 @@ import SwiftUI
 struct View3: View {
     var body: some View
     {
-        VStack
+        //adding background
+        ZStack
         {
-            Text("This is screen 3")
-        }.padding(.all).background(Color.cyan)
+            Color.gray
+        }
     }
 }
 

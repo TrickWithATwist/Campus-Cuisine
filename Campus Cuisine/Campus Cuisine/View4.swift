@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct View4: View {
-    var body: some View {
-        Text("Favorites menu screen")
+    var body: some View
+    {
+        //adding background
+        ZStack
+        {
+            Color.gray
+        }
     }
 }
 

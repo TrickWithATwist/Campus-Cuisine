@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct View1: View {
-    var body: some View {
-        Text("WE ARE IN BUSINESS")
+    var body: some View
+    {
+        //adding background
+        ZStack
+        {
+            Color.gray
+        }
     }
 }
 
