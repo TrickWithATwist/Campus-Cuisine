@@ -17,7 +17,7 @@ struct View1: View {
         {
             //adding text for view
             /* using modifiers to increase text size and color*/
-            Text("Categories").foregroundColor(.white)
+            Text("Categories").foregroundColor(.white).font(.system(size: 40))
         })
     }
 }
