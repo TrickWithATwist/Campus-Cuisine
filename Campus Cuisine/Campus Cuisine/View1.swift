@@ -10,7 +10,7 @@ struct View1: View {
     var body: some View
     {
         /* adding background by establishing a color and having it be overlayed over all the other content on the view*/
-        Color.gray.ignoresSafeArea().overlay(
+        Color.black.ignoresSafeArea().overlay(
         //content that the color is overlaying
         VStack
         {
