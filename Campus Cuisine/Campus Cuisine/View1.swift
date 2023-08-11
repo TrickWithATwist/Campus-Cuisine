@@ -15,14 +15,28 @@ struct View1: View {
             /* adding background by establishing a color and having it be overlayed over all the other content on the view*/
             Color.black.ignoresSafeArea().overlay(
                 //content that the color is overlaying
-                HStack
+                VStack
                 {
-                    //adding text for view
-                    /* using modifiers to increase text size and color*/
-                    Text("Categories").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    
-                    /* creating navigation link between home view and see all view*/
-                    NavigationLink("See all", destination: SeeAllView()).foregroundColor(.white).font(.system(size: 25)).frame(maxWidth: .infinity, maxHeight: 670, alignment: .topTrailing)
+                    // "Categories" title and "See All"
+                    HStack
+                    {
+                        //adding text for view
+                        /* using modifiers to increase text size and color*/
+                        Text("Categories").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                        
+                        /* creating navigation link between home view and see all view*/
+                        NavigationLink("See all", destination: SeeAllView()).foregroundColor(.white).font(.system(size: 25)).frame(maxWidth: .infinity, maxHeight: 670, alignment: .topTrailing)
+                    }
+                    // "Cultures" title
+                    HStack
+                    {
+                        Text("Cultures").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    }
+                    // "By Food" title
+                    HStack
+                    {
+                        Text("By Food").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    }
                 })
         }.navigationBarHidden(true) //bar is hidden
     }
