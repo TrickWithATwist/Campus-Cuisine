@@ -33,3 +33,26 @@ struct View3_Previews: PreviewProvider {
         View3()
     }
 }
+
+//establishing class
+/* "final" class type means that no other class can be
+ inhereted from it*/
+final class View3Model: ObservableObject
+{
+    var locationmanager: CLLocationManager?
+        
+        func checkiflocationservicesareenabled()
+        {
+            if CLLocationManager.locationServicesEnabled()
+            {
+                locationmanager = CLLocationManager()
+                locationmanager?.desiredAccuracy = kCLLocationAccuracyBest
+            }
+            else
+            {
+                print("Please turn on location services to use map.")
+            }
+        }
+        
+}
+
