@@ -22,7 +22,7 @@ struct View1: View {
                     /* creating navigation link between home view and see all view*/
                     //destination is temporary
                     NavigationLink(destination: SeeAllView(), label:{
-                        Label("", systemImage: "gear").foregroundColor(.white)
+                        Label("", systemImage: "gearshape").foregroundColor(.white)
                     })
                     
                     
