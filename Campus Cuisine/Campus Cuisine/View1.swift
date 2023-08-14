@@ -19,6 +19,10 @@ struct View1: View {
                 // Vertical Stack holding contents of Home Screen
                 VStack
                 {
+                    /* creating navigation link between home view and see all view*/
+                    NavigationLink("Settings", destination: SeeAllView())
+
+                    
                     // "Categories" title and "See All"
                     HStack
                     {
