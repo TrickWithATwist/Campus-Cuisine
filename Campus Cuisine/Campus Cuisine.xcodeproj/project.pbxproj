@@ -27,6 +27,7 @@
 		690F07E32A8504290017AFC2 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		690F07E52A8540870017AFC2 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		690F07E72A8541180017AFC2 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		695776D42A8A5F97001930A5 /* Campus-Cuisine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Campus-Cuisine-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		690F07D22A84FCC30017AFC2 /* Campus Cuisine */ = {
 			isa = PBXGroup;
 			children = (
+				695776D42A8A5F97001930A5 /* Campus-Cuisine-Info.plist */,
 				690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */,
 				690F07D52A84FCC30017AFC2 /* ContentView.swift */,
 				690F07E12A85040E0017AFC2 /* View2.swift */,
@@ -286,7 +288,8 @@
 				DEVELOPMENT_TEAM = 2H773RQY36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to use the \"map\" feature.";
+				INFOPLIST_FILE = "Campus-Cuisine-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to use the map.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,7 +319,8 @@
 				DEVELOPMENT_TEAM = 2H773RQY36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to use the \"map\" feature.";
+				INFOPLIST_FILE = "Campus-Cuisine-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to use the map.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
