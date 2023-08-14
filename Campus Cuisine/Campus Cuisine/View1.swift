@@ -30,14 +30,25 @@ struct View1: View {
                         NavigationLink("See all", destination: SeeAllView()).foregroundColor(.white).font(.system(size: 25)).frame(maxWidth: .infinity, maxHeight: 670, alignment: .topTrailing)
                     }
                     
-                    // Fast Food Button
-                    Button(action: { }, label: {
-                      Text("Fast Food")
-                        .padding(50)
-                        .background(Color.orange)
-                        .cornerRadius(8)
-                        .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
-                    })
+                    HStack
+                    {
+                        // Fast Food Button
+                        Button(action: { }, label: {
+                            Text("Fast Food")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                        // Dine In Button
+                        Button(action: { }, label: {
+                            Text("Dine In")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                    }
                     
                     // "Cultures" title
                     HStack
@@ -45,14 +56,25 @@ struct View1: View {
                         Text("Cultures").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                     }
                     
-                    // Asian Button
-                    Button(action: { }, label: {
-                        Text("Asian")
-                            .padding(50)
-                            .background(Color.orange)
-                            .cornerRadius(8)
-                            .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
-                    })
+                    HStack
+                    {
+                        // Asian Button
+                        Button(action: { }, label: {
+                            Text("Asian")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                        // Italian Button
+                        Button(action: { }, label: {
+                            Text("Italian")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                    }
                     
                     // "By Food" title
                     HStack
@@ -60,14 +82,25 @@ struct View1: View {
                         Text("By Food").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                     }
                     
-                    // Pizza Button
-                    Button(action: { }, label: {
-                        Text("Pizza")
-                            .padding(50)
-                            .background(Color.orange)
-                            .cornerRadius(8)
-                            .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
-                    })
+                    HStack
+                    {
+                        // Pizza Button
+                        Button(action: { }, label: {
+                            Text("Pizza")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                        // Tacos Button
+                        Button(action: { }, label: {
+                            Text("Tacos")
+                                .padding(50)
+                                .background(Color.orange)
+                                .cornerRadius(8)
+                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                        })
+                    }
                     
                 })
         }.navigationBarHidden(true) //bar is hidden
