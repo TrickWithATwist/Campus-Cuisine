@@ -39,18 +39,19 @@ struct View1: View {
                     
                     HStack
                     {
-                        // Fast Food Button
-                        Button(action: { }, label: {
-                            Text("Fast Food")
-                                .padding(50)
+                        NavigationLink(destination: SeeAllView(), label:{
+                            Label("", systemImage: "fork.knife")
+                                .foregroundColor(.white)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
-                                .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
+                                .bold()
+                        
                         })
                         // Dine In Button
                         Button(action: { }, label: {
                             Text("Dine In")
-                                .padding(50)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
                                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
@@ -68,7 +69,7 @@ struct View1: View {
                         // Asian Button
                         Button(action: { }, label: {
                             Text("Asian")
-                                .padding(50)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
                                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
@@ -76,7 +77,7 @@ struct View1: View {
                         // Italian Button
                         Button(action: { }, label: {
                             Text("Italian")
-                                .padding(50)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
                                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
@@ -94,7 +95,7 @@ struct View1: View {
                         // Pizza Button
                         Button(action: { }, label: {
                             Text("Pizza")
-                                .padding(50)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
                                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
@@ -102,7 +103,7 @@ struct View1: View {
                         // Tacos Button
                         Button(action: { }, label: {
                             Text("Tacos")
-                                .padding(50)
+                                .padding(70)
                                 .background(Color.orange)
                                 .cornerRadius(8)
                                 .frame(maxWidth: .infinity,maxHeight: .infinity, alignment: .topLeading)
