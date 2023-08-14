@@ -24,10 +24,7 @@ struct View3: View {
             
         //establing map
             Map(coordinateRegion: $region, showsUserLocation: true)
-        VStack
-        {
-            Text("Map placeholder").foregroundColor(.white)
-        }//)
+        
     }
 }
 
