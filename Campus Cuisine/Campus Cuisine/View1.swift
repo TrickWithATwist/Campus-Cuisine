@@ -20,8 +20,10 @@ struct View1: View {
                 VStack
                 {
                     /* creating navigation link between home view and see all view*/
-                    NavigationLink("Settings", destination: SeeAllView())
-
+                    NavigationLink(destination: SeeAllView(), label:{
+                        Label("", systemImage: "gear").foregroundColor(.white)
+                    })
+                    
                     
                     // "Categories" title and "See All"
                     HStack
@@ -107,24 +109,24 @@ struct View1: View {
                     }
                     
                 })
-        }.navigationBarHidden(true) //bar is hidden
+        }.navigationBarHidden(true)
     }
-}
-
-/* establishing extra view for the "See All" screen*/
-struct SeeAllView: View {
-    var body: some View
-    {
-        Color.black.ignoresSafeArea().overlay(
-        HStack
+    
+    /* establishing extra view for the "See All" screen*/
+    struct SeeAllView: View {
+        var body: some View
         {
-            Text("See all screen").foregroundColor(.white)
-        })
+            Color.black.ignoresSafeArea().overlay(
+                HStack
+                {
+                    Text("See all screen").foregroundColor(.white)
+                })
+        }
     }
-}
-
-struct View1_Previews: PreviewProvider {
-    static var previews: some View {
-        View1()
+    
+    struct View1_Previews: PreviewProvider {
+        static var previews: some View {
+            View1()
+        }
     }
 }
