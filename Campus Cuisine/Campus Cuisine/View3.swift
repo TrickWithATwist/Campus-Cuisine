@@ -10,6 +10,9 @@ import MapKit
 
 struct View3: View {
     
+    //creating instance of View3Model
+    @ObservedObject var viewModel = View3Model()
+    
     /* establishing mutable variable for
      geographic location of user. @State means
      that the variable is mutable and "var"
@@ -23,7 +26,9 @@ struct View3: View {
         //Color.black.ignoresSafeArea().overlay(
             
         //establing map
-            Map(coordinateRegion: $region, showsUserLocation: true)
+        Map(coordinateRegion: $region, showsUserLocation: true).onAppear{
+            viewModel.checkiflocationservicesareenabled()
+        }
         
     }
 }
@@ -37,7 +42,7 @@ struct View3_Previews: PreviewProvider {
 //establishing class
 /* "final" class type means that no other class can be
  inhereted from it*/
-final class View3Model: ObservableObject
+final class View3Model: NSObject, ObservableObject, CLLocationManagerDelegate
 {
     var locationmanager: CLLocationManager?
         
@@ -46,7 +51,8 @@ final class View3Model: ObservableObject
             if CLLocationManager.locationServicesEnabled()
             {
                 locationmanager = CLLocationManager()
-                //locationmanager?.desiredAccuracy = kCLLocationAccuracyBest
+                locationmanager!.delegate = self
+                checkLocationauthorization()
             }
             else
             {
@@ -80,6 +86,12 @@ final class View3Model: ObservableObject
             break
         }
         
+    }
+    
+    //establishing another function
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager)
+    {
+        checkLocationauthorization()
     }
         
 }
