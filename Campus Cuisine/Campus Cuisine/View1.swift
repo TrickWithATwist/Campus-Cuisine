@@ -61,10 +61,41 @@ struct View1: View {
                     {
                         //adding text for view
                         /* using modifiers to increase text size and color*/
-                        Text("Categories").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                        //                        Text("Categories").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                         
                         /* creating navigation link between home view and see all view*/
-                        NavigationLink("See all", destination: SeeAllView()).foregroundColor(.white).font(.system(size: 25)).frame(maxWidth: .infinity, maxHeight: 670, alignment: .topTrailing)
+                        //                        NavigationLink("See all", destination: SeeAllView()).foregroundColor(.white).font(.system(size: 25)).frame(maxWidth: .infinity, maxHeight: 670, alignment: .topTrailing)
+                        
+                        //creating Vstack with scroll view for Category
+                        //options
+                        VStack
+                        {
+                            //Establishing Categories text
+                            Text("Categories")
+                                .foregroundColor(.white)
+                                .fontWeight(.bold)
+                                .font(.system(size: 40))
+                            //establsihing scrollview
+                            ScrollView(.horizontal, showsIndicators: false, content:
+                                {
+                                    HStack(spacing: 25)
+                                    {
+                                        ForEach(categories){category in
+                                            HStack(spacing: 15)
+                                            {
+                                                
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 40))
+                                                    .padding(.all).background(Color.red)
+                                            }
+                                        }
+                                    }.padding(.horizontal)
+                                
+                                })
+                        }
+                        
                     }
                     
 //                    HStack

@@ -14,42 +14,26 @@
             filePath = "Campus Cuisine/View1.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "View1"
             landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "6AD0BC68-9B82-4C1A-AB18-DCE33D29976A - 4b295b27a663dca7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Campus_Cuisine.View1.SeeAllView.body.getter : some"
-                  moduleName = "Campus Cuisine"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/akramdjomehri/Documents/GitHub/Grub/Campus%20Cuisine/Campus%20Cuisine/View1.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123"
-                  offsetFromSymbolStart = "184">
-               </Location>
-               <Location
-                  uuid = "6AD0BC68-9B82-4C1A-AB18-DCE33D29976A - c4a106ef660f30c9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.Text in Campus_Cuisine.View1.SeeAllView.body.getter : some"
-                  moduleName = "Campus Cuisine"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/akramdjomehri/Documents/GitHub/Grub/Campus%20Cuisine/Campus%20Cuisine/View1.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54327760-B2EC-4AA3-B27B-DC4660F9BB8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Campus Cuisine/View1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "View1"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
