@@ -21,7 +21,7 @@ struct View3: View {
         //Color.black.ignoresSafeArea().overlay(
             
         //establing map
-        Map(coordinateRegion: $viewModel.region, showsUserLocation: true).onAppear{
+        Map(coordinateRegion: $viewModel.region, showsUserLocation: true).ignoresSafeArea().onAppear{
             viewModel.checkiflocationservicesareenabled()
         }
         
