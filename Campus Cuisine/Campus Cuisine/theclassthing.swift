@@ -19,8 +19,10 @@ struct theclassthing_Previews: PreviewProvider {
     }
 }
 
-//establishing the class
+//establishing the classes
 
+//this class is used to establish
+//a global variable to keep track of filters selected by user
 final class myfilter
 {
     static let shared = myfilter()
@@ -28,4 +30,15 @@ final class myfilter
     
     //establishing mutable variavle
     var myfiltervar = 0;
+}
+
+/* this class is used to create list of favorite restaurants
+ to scroll through on the favorites tab*/
+final class myfavorites
+{
+    //static let shared = myfavorites()
+    private init() {}
+    
+    //making variable
+    var myfavorites = {}
 }
