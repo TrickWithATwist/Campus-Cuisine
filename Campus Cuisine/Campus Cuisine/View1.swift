@@ -6,6 +6,36 @@
 
 import SwiftUI
 
+
+//creating struct to store attributes for
+//indexes of catagory arrays
+/* There will be three structs, each struct will be for
+ each horizontal scrolling section of the homescreen.
+ Categories, Cultures, and By Food*/
+struct Category: Identifiable
+{
+    var id: String = UUID().uuidString
+    var title: String
+}
+//array with info to be displayed for "Categories"
+var categories =
+[
+    Category(title: "Asian 🌏"),
+    Category(title: "Sandwiches 🥪"),
+    Category(title: "Seafood 🐟"),
+    Category(title: "Pizza 🍕"),
+    Category(title: "Italian 🍝"),
+    Category(title: "Wings 🍗"),
+    Category(title: "Fast Food 🍟"),
+    Category(title: "Mexican 🇲🇽"),
+    Category(title: "Dessert 🍦"),
+    Category(title: "American 🇺🇸"),
+    Category(title: "Breakfast 🧇"),
+    Category(title: "Mediterranean 🥙"),
+    Category(title: "Burgers 🍔")
+]
+
+
 struct View1: View {
     var body: some View
     {
