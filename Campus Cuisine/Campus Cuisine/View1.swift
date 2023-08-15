@@ -40,7 +40,8 @@ var cultures =
     Category(title: "Asian 🌏"),
     Category(title: "Italian 🍝"),
     Category(title: "American 🇺🇸"),
-    Category(title: "Mediterranean 🥙")
+    Category(title: "Mediterranean 🥙"),
+    Category(title: "Mexican 🇲🇽")
 ]
 //array for food
 var food =
