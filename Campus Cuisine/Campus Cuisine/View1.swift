@@ -81,7 +81,7 @@ struct View1: View {
                         .fontWeight(.bold)
                         .font(.largeTitle)
                         .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
-                        
+                    
                     
                     //creating horizontal stack for gear and see all buttons
                     HStack
@@ -115,24 +115,24 @@ struct View1: View {
                                 .font(.system(size: 40))
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
+                                        {
+                                HStack(spacing: 25)
                                 {
-                                    HStack(spacing: 25)
-                                    {
-                                        ForEach(categories){category in
-                                            HStack(spacing: 15)
-                                            {
-                                                
-                                                Text(category.title)
-                                                    .fontWeight(.bold)
-                                                    .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color.orange)
-                                                    .cornerRadius(35)
-                                            }
+                                    ForEach(categories){category in
+                                        HStack(spacing: 15)
+                                        {
+                                            
+                                            Text(category.title)
+                                                .fontWeight(.bold)
+                                                .foregroundColor(.white)
+                                                .font(.system(size: 50))
+                                                .padding(.all).background(Color.red)
+                                                .cornerRadius(35)
                                         }
-                                    }.padding(.horizontal)
+                                    }
+                                }.padding(.horizontal)
                                 
-                                })
+                            })
                         }
                         //Creating Vstack for Cultures section
                         VStack
@@ -152,24 +152,24 @@ struct View1: View {
                                 .font(.system(size: 40))
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
+                                        {
+                                HStack(spacing: 25)
                                 {
-                                    HStack(spacing: 25)
-                                    {
-                                        ForEach(cultures){category in
-                                            HStack(spacing: 15)
-                                            {
-                                                
-                                                Text(category.title)
-                                                    .fontWeight(.bold)
-                                                    .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color.orange)
-                                                    .cornerRadius(35)
-                                            }
+                                    ForEach(cultures){category in
+                                        HStack(spacing: 15)
+                                        {
+                                            
+                                            Text(category.title)
+                                                .fontWeight(.bold)
+                                                .foregroundColor(.white)
+                                                .font(.system(size: 50))
+                                                .padding(.all).background(Color.red)
+                                                .cornerRadius(35)
                                         }
-                                    }.padding(.horizontal)
+                                    }
+                                }.padding(.horizontal)
                                 
-                                })
+                            })
                         }
                     }
                     //Creating HStack for food
@@ -184,24 +184,24 @@ struct View1: View {
                                 .font(.system(size: 40))
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
+                                        {
+                                HStack(spacing: 25)
                                 {
-                                    HStack(spacing: 25)
-                                    {
-                                        ForEach(food){category in
-                                            HStack(spacing: 15)
-                                            {
-                                                
-                                                Text(category.title)
-                                                    .fontWeight(.bold)
-                                                    .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color.orange)
-                                                    .cornerRadius(35)
-                                            }
+                                    ForEach(food){category in
+                                        HStack(spacing: 15)
+                                        {
+                                            
+                                            Text(category.title)
+                                                .fontWeight(.bold)
+                                                .foregroundColor(.white)
+                                                .font(.system(size: 50))
+                                                .padding(.all).background(Color.red)
+                                                .cornerRadius(35)
                                         }
-                                    }.padding(.horizontal)
+                                    }
+                                }.padding(.horizontal)
                                 
-                                })
+                            })
                         }
                     }
                     Spacer()
@@ -216,16 +216,36 @@ struct View1: View {
         var body: some View
         {
             Color.black.ignoresSafeArea().overlay(
-                HStack
+                VStack
                 {
-                    Text("See all screen").foregroundColor(.white)
+                    //Text("See all screen").foregroundColor(.white)
+                    ////establsihing scrollview
+                    ScrollView(.vertical, showsIndicators: false, content:
+                                {
+                        VStack(spacing: 25)
+                        {
+                            ForEach(categories){category in
+                                VStack(spacing: 15)
+                                {
+                                    
+                                    Text(category.title)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                        .font(.system(size: 50))
+                                        .padding(.all).background(Color.red)
+                                        .cornerRadius(35)
+                                }
+                            }
+                        }.padding(.vertical)
+                        
+                    })
                 })
         }
-    }
-    
-    struct View1_Previews: PreviewProvider {
-        static var previews: some View {
-            View1()
+        
+        struct View1_Previews: PreviewProvider {
+            static var previews: some View {
+                View1()
+            }
         }
     }
 }
