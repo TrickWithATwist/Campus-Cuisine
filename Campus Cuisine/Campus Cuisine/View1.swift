@@ -86,7 +86,7 @@ struct View1: View {
                     //creating horizontal stack for gear and see all buttons
                     HStack
                     {
-                        NavigationLink(destination: SeeAllView(), label:{
+                        NavigationLink(destination: settingsview(), label:{
                             Label("", systemImage: "gearshape").foregroundColor(.white).frame(maxWidth: .infinity, alignment: .topLeading)
                         })
                         NavigationLink(destination: SeeAllView(), label:{
@@ -219,7 +219,7 @@ struct View1: View {
                 VStack
                 {
                     //Text("See all screen").foregroundColor(.white)
-                    ////establsihing scrollview
+                    //establsihing scrollview
                     ScrollView(.vertical, showsIndicators: false, content:
                                 {
                         VStack(spacing: 25)
