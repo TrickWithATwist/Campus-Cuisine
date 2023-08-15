@@ -13,7 +13,7 @@ struct View4: View {
         Color.black.overlay(
             HStack
             {
-                Text("Favorites").foregroundColor(.white).font(.system(size: 50)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                Text("Favorites").foregroundColor(.white).font(.system(size: 50)).frame(maxWidth: .infinity, maxHeight: 800, alignment: .topLeading)
             }).ignoresSafeArea()
     }
 }
