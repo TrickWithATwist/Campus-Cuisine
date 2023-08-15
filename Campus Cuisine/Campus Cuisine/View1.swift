@@ -231,7 +231,7 @@ struct View1: View {
                                     Text(category.title)
                                         .fontWeight(.bold)
                                         .foregroundColor(.white)
-                                        .font(.system(size: 50))
+                                        .font(.system(size: 40))
                                         .padding(.all).background(Color.red)
                                         .cornerRadius(35)
                                 }
