@@ -9,10 +9,11 @@ import SwiftUI
 struct View4: View {
     var body: some View
     {
+        
         Color.black.overlay(
-            VStack
+            HStack
             {
-                Text("Favorites").foregroundColor(.white)
+                Text("Favorites").foregroundColor(.white).font(.system(size: 50)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             }).ignoresSafeArea()
     }
 }
