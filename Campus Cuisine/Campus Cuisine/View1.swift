@@ -73,10 +73,15 @@ struct View1: View {
                 {
                     /* creating navigation link between home view and see all view*/
                     //destination is temporary
-                    NavigationLink(destination: SeeAllView(), label:{
-                        Label("", systemImage: "gearshape").foregroundColor(.white)
-                    })
-                    
+                    HStack
+                    {
+                        NavigationLink(destination: SeeAllView(), label:{
+                            Label("", systemImage: "gearshape").foregroundColor(.white).frame(maxWidth: .infinity, alignment: .topLeading)
+                        })
+                        NavigationLink(destination: SeeAllView(), label:{
+                            Text("See All").foregroundColor(.white).frame(alignment: .topTrailing).fontWeight(.bold)
+                        })
+                    }
                     
                     // "Categories" title and "See All"
                     HStack
