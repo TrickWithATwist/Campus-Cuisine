@@ -73,6 +73,16 @@ struct View1: View {
                 {
                     /* creating navigation link between home view and see all view*/
                     //destination is temporary
+                    
+                    //Welcome back text
+                    Text("Welcome Back :)")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .font(.largeTitle)
+                        .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
+                        
+                    
+                    //creating horizontal stack for gear and see all buttons
                     HStack
                     {
                         NavigationLink(destination: SeeAllView(), label:{
@@ -193,7 +203,10 @@ struct View1: View {
                                 })
                         }
                     }
+                    Spacer()
                 })
+            
+            
         }.navigationBarHidden(true)
     }
     
