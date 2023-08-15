@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3D1E36ED-1F91-4049-B738-1DDFFA78D978"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AD0BC68-9B82-4C1A-AB18-DCE33D29976A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Campus Cuisine/View1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "View1"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "6AD0BC68-9B82-4C1A-AB18-DCE33D29976A - 4b295b27a663dca7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Cuisine.View1.SeeAllView.body.getter : some"
+                  moduleName = "Campus Cuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akramdjomehri/Documents/GitHub/Grub/Campus%20Cuisine/Campus%20Cuisine/View1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "6AD0BC68-9B82-4C1A-AB18-DCE33D29976A - c4a106ef660f30c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Text in Campus_Cuisine.View1.SeeAllView.body.getter : some"
+                  moduleName = "Campus Cuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akramdjomehri/Documents/GitHub/Grub/Campus%20Cuisine/Campus%20Cuisine/View1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
