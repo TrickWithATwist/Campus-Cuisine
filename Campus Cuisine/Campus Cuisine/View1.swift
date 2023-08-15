@@ -34,6 +34,28 @@ var categories =
     Category(title: "Mediterranean 🥙"),
     Category(title: "Burgers 🍔")
 ]
+//array for cultures
+var cultures =
+[
+    Category(title: "Asian 🌏"),
+    Category(title: "Italian 🍝"),
+    Category(title: "American 🇺🇸"),
+    Category(title: "Mediterranean 🥙")
+]
+//array for food
+var food =
+[
+    Category(title: "Sandwiches 🥪"),
+    Category(title: "Seafood 🐟"),
+    Category(title: "Pizza 🍕"),
+    Category(title: "Wings 🍗"),
+    Category(title: "Dessert 🍦"),
+    Category(title: "Breakfast 🧇"),
+    Category(title: "Burgers 🍔"),
+    Category(title: "Fast Food 🍟")
+    
+    
+]
 
 
 struct View1: View {
@@ -117,7 +139,39 @@ struct View1: View {
                                 {
                                     HStack(spacing: 25)
                                     {
-                                        ForEach(categories){category in
+                                        ForEach(cultures){category in
+                                            HStack(spacing: 15)
+                                            {
+                                                
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.orange)
+                                                    .cornerRadius(35)
+                                            }
+                                        }
+                                    }.padding(.horizontal)
+                                
+                                })
+                        }
+                    }
+                    //Creating HStack for food
+                    HStack
+                    {
+                        VStack
+                        {
+                            //Establishing Categories text
+                            Text("By Food")
+                                .foregroundColor(.white)
+                                .fontWeight(.bold)
+                                .font(.system(size: 40))
+                            //establsihing scrollview
+                            ScrollView(.horizontal, showsIndicators: false, content:
+                                {
+                                    HStack(spacing: 25)
+                                    {
+                                        ForEach(food){category in
                                             HStack(spacing: 15)
                                             {
                                                 
@@ -183,10 +237,10 @@ struct View1: View {
 //                    }
                     
                     // "By Food" title
-                    HStack
-                    {
-                        Text("By Food").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    }
+                    //                    HStack
+                    //                    {
+                    //                        Text("By Food").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    //                    }
                     
 //                    HStack
 //                    {
