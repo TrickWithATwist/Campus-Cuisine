@@ -87,15 +87,52 @@ struct View1: View {
                                                 Text(category.title)
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
-                                                    .font(.system(size: 40))
-                                                    .padding(.all).background(Color.red)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.orange)
+                                                    .cornerRadius(35)
                                             }
                                         }
                                     }.padding(.horizontal)
                                 
                                 })
                         }
+                        //Creating Vstack for Cultures section
+                        VStack
+                        {
+                            
+                        }
                         
+                    }
+                    HStack
+                    {
+                        VStack
+                        {
+                            //Establishing Categories text
+                            Text("By Cultures")
+                                .foregroundColor(.white)
+                                .fontWeight(.bold)
+                                .font(.system(size: 40))
+                            //establsihing scrollview
+                            ScrollView(.horizontal, showsIndicators: false, content:
+                                {
+                                    HStack(spacing: 25)
+                                    {
+                                        ForEach(categories){category in
+                                            HStack(spacing: 15)
+                                            {
+                                                
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.orange)
+                                                    .cornerRadius(35)
+                                            }
+                                        }
+                                    }.padding(.horizontal)
+                                
+                                })
+                        }
                     }
                     
 //                    HStack
@@ -120,10 +157,10 @@ struct View1: View {
 //                    }
                     
                     // "Cultures" title
-                    HStack
-                    {
-                        Text("Cultures").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    }
+                    //                    HStack
+                    //                    {
+                    //                        Text("Cultures").foregroundColor(.white).font(.system(size: 40)).frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    //                    }
                     
 //                    HStack
 //                    {
