@@ -9,11 +9,11 @@ import SwiftUI
 struct View4: View {
     var body: some View
     {
-        //adding background
-        ZStack
-        {
-            Color.gray
-        }
+        Color.black.overlay(
+            VStack
+            {
+                Text("Favorites").foregroundColor(.white)
+            }).ignoresSafeArea()
     }
 }
 
