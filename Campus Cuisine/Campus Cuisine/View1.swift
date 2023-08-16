@@ -232,6 +232,8 @@ struct View1: View {
     struct SeeAllView: View {
         var body: some View
         {
+            @State var filter = myfilter.shared
+            
             Color.black.ignoresSafeArea().overlay(
                 VStack
                 {
@@ -245,12 +247,18 @@ struct View1: View {
                                 VStack(spacing: 15)
                                 {
                                     
-                                    Text(category.title)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.white)
-                                        .font(.system(size: 40))
-                                        .padding(.all).background(Color.red)
-                                        .cornerRadius(35)
+                                    NavigationLink(destination: filtersview(), label: {
+                                        Text(category.title)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.white)
+                                            .font(.system(size: 40))
+                                            .padding(.all).background(Color.red)
+                                            .cornerRadius(35)
+                                    }).simultaneousGesture(TapGesture().onEnded
+                                    {
+                                        //changes class variable
+                                        filter.myfiltervar = (category.title)
+                                    })
                                 }
                             }
                         }.padding(.vertical)
