@@ -122,12 +122,18 @@ struct View1: View {
                                         HStack(spacing: 15)
                                         {
                                             
-                                            Text(category.title)
-                                                .fontWeight(.bold)
-                                                .foregroundColor(.white)
-                                                .font(.system(size: 50))
-                                                .padding(.all).background(Color.red)
-                                                .cornerRadius(35)
+                                            NavigationLink(destination: filtersview(), label: {
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.red)
+                                                    .cornerRadius(35)
+                                            }).simultaneousGesture(TapGesture().onEnded
+                                            {
+                                                //changes class variable
+                                                filter.myfiltervar = (category.title)
+                                            })
                                         }
                                     }
                                 }.padding(.horizontal)
@@ -196,12 +202,18 @@ struct View1: View {
                                         HStack(spacing: 15)
                                         {
                                             
-                                            Text(category.title)
-                                                .fontWeight(.bold)
-                                                .foregroundColor(.white)
-                                                .font(.system(size: 50))
-                                                .padding(.all).background(Color.red)
-                                                .cornerRadius(35)
+                                            NavigationLink(destination: filtersview(), label: {
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.red)
+                                                    .cornerRadius(35)
+                                            }).simultaneousGesture(TapGesture().onEnded
+                                            {
+                                                //changes class variable
+                                                filter.myfiltervar = (category.title)
+                                            })
                                         }
                                     }
                                 }.padding(.horizontal)
