@@ -158,7 +158,7 @@ struct View1: View {
                                     ForEach(cultures){category in
                                         HStack(spacing: 15)
                                         {
-                                            NavigationLink(destination: settingsview(), label: {
+                                            NavigationLink(destination: filtersview(), label: {
                                                 Text(category.title)
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
@@ -247,6 +247,10 @@ struct View1: View {
                 })
         }
         
+        
+        
+        
+        
         struct View1_Previews: PreviewProvider {
             static var previews: some View {
                 View1()
@@ -254,3 +258,22 @@ struct View1: View {
         }
     }
 }
+
+//establishing view for looking at filters
+    struct filtersview: View
+    {
+        @State var filter = myfilter.shared
+
+        var body: some View
+        {
+            
+            Color.black.overlay(
+                VStack
+                {
+                    Text(filter.myfiltervar)
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                }
+            ).ignoresSafeArea()
+        }
+    }
