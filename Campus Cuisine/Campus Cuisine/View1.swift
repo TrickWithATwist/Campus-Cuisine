@@ -293,6 +293,11 @@ struct View1: View {
                     Text(filter.myfiltervar)
                         .foregroundColor(.white)
                         .fontWeight(.bold)
+                        .font(.largeTitle)
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                        .background(Color.red)
+                        .cornerRadius(35)
                 }
             ).ignoresSafeArea()
         }
