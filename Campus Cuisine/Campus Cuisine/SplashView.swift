@@ -16,6 +16,7 @@ struct SplashView: View
     
     var body: some View
     {
+        Color.black.overlay(
         ZStack
         {
             if self.isActive
@@ -34,7 +35,7 @@ struct SplashView: View
                     self.isActive = true
                 }
             }
-        }
+        })
     }
     
     struct SplashView_Previews: PreviewProvider {
