@@ -6,7 +6,6 @@
 
 import SwiftUI
 
-
 //creating struct to store attributes for
 //indexes of catagory arrays
 /* There will be three structs, each struct will be for
@@ -58,8 +57,9 @@ var food =
     
 ]
 
-
 struct View1: View {
+    @State var filter = myfilter.shared
+    
     var body: some View
     {
         /* establishing navigation view and hiding the bar using a modifier*/
@@ -165,6 +165,10 @@ struct View1: View {
                                                     .font(.system(size: 50))
                                                     .padding(.all).background(Color.red)
                                                     .cornerRadius(35)
+                                            }).simultaneousGesture(TapGesture().onEnded
+                                            {
+                                                //changes class variable
+                                                filter.myfiltervar = (category.title)
                                             })
                                         }
                                     }

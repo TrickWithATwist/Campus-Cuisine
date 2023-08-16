@@ -29,7 +29,7 @@ final class myfilter
     private init() {}
     
     //establishing mutable variavle
-    var myfiltervar = 0;
+    var myfiltervar = "placeholder"
 }
 
 /* this class is used to create list of favorite restaurants
