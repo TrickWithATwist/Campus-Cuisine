@@ -10,7 +10,7 @@ import SwiftUI
 struct Campus_CuisineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }

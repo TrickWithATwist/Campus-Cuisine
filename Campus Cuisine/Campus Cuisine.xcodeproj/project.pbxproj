@@ -17,6 +17,7 @@
 		690F07E82A8541180017AFC2 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F07E72A8541180017AFC2 /* View1.swift */; };
 		695776D62A8A77DC001930A5 /* theclassthing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695776D52A8A77DC001930A5 /* theclassthing.swift */; };
 		695FD8762A8BC9180069CBDB /* settingsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FD8752A8BC9180069CBDB /* settingsview.swift */; };
+		695FD8782A8CFDE00069CBDB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FD8772A8CFDE00069CBDB /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		695776D42A8A5F97001930A5 /* Campus-Cuisine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Campus-Cuisine-Info.plist"; sourceTree = SOURCE_ROOT; };
 		695776D52A8A77DC001930A5 /* theclassthing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theclassthing.swift; sourceTree = "<group>"; };
 		695FD8752A8BC9180069CBDB /* settingsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsview.swift; sourceTree = "<group>"; };
+		695FD8772A8CFDE00069CBDB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				690F07D52A84FCC30017AFC2 /* ContentView.swift */,
 				695776D52A8A77DC001930A5 /* theclassthing.swift */,
 				690F07E12A85040E0017AFC2 /* View2.swift */,
+				695FD8772A8CFDE00069CBDB /* SplashView.swift */,
 				690F07E32A8504290017AFC2 /* View3.swift */,
 				690F07E52A8540870017AFC2 /* View4.swift */,
 				695FD8752A8BC9180069CBDB /* settingsview.swift */,
@@ -165,6 +168,7 @@
 				695776D62A8A77DC001930A5 /* theclassthing.swift in Sources */,
 				690F07E82A8541180017AFC2 /* View1.swift in Sources */,
 				690F07D42A84FCC30017AFC2 /* Campus_CuisineApp.swift in Sources */,
+				695FD8782A8CFDE00069CBDB /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
