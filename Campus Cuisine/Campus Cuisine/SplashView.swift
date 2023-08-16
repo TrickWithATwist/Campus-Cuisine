@@ -12,30 +12,57 @@ import SwiftUI
 struct SplashView: View
 {
     @State var isActive: Bool = false
-    
+    @Environment(\.colorScheme) var colorScheme
+
     
     var body: some View
     {
-        Color.black.overlay(
-        ZStack
+        if(colorScheme == .light)
         {
-            if self.isActive
-            {
-                ContentView()
-            }
-            else
-            {
-                Rectangle().background(Color.black)
-                Image("logo-white").resizable().scaledToFit()
-            }
-        }.onAppear
+            Color.black.overlay(
+                ZStack
+                {
+                    if self.isActive
+                    {
+                        ContentView()
+                    }
+                    else
+                    {
+                        Rectangle().background(Color.black)
+                        Image("logo-white").resizable().scaledToFit()
+                    }
+                }.onAppear
+                {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                        withAnimation {
+                            self.isActive = true
+                        }
+                    }
+                })
+        }
+        else
         {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                withAnimation {
-                    self.isActive = true
-                }
-            }
-        })
+            Color.white.overlay(
+                ZStack
+                {
+                    if self.isActive
+                    {
+                        ContentView()
+                    }
+                    else
+                    {
+                        Rectangle().background(Color.black)
+                        Image("logo-white").resizable().scaledToFit()
+                    }
+                }.onAppear
+                {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                        withAnimation {
+                            self.isActive = true
+                        }
+                    }
+                })
+        }
     }
     
     struct SplashView_Previews: PreviewProvider {
