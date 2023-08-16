@@ -158,13 +158,14 @@ struct View1: View {
                                     ForEach(cultures){category in
                                         HStack(spacing: 15)
                                         {
-                                            
-                                            Text(category.title)
-                                                .fontWeight(.bold)
-                                                .foregroundColor(.white)
-                                                .font(.system(size: 50))
-                                                .padding(.all).background(Color.red)
-                                                .cornerRadius(35)
+                                            NavigationLink(destination: settingsview(), label: {
+                                                Text(category.title)
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(.white)
+                                                    .font(.system(size: 50))
+                                                    .padding(.all).background(Color.red)
+                                                    .cornerRadius(35)
+                                            })
                                         }
                                     }
                                 }.padding(.horizontal)
