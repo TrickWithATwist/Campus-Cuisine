@@ -27,24 +27,24 @@ struct ContentView: View {
             View1().tabItem()
             {
                 Label("Home", systemImage: "house")
-            }.padding(.bottom).background(Color.white).frame(height: 720)
+            }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
             /* adding the padding to the tab item so that the white frame for the bar is still present*/
 
             //search
             View2().tabItem()
             {
                 Label("Search", systemImage: "fork.knife.circle")
-            }.padding(.bottom).background(Color.white).frame(height: 720)
+            }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
             //map
             View3().tabItem()
             {
                 Label("Map", systemImage: "map")
-            }.padding(.bottom).background(Color.white).frame(height: 720)
+            }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
             //Star
             View4().tabItem()
             {
                 Label("Favorites", systemImage: "star")
-            }.padding(.bottom).background(Color.white).frame(height: 720)
+            }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
             /* Essentially what this tab view is doing is allowing us to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
             
         }
