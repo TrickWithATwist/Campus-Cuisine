@@ -127,7 +127,7 @@ struct View1: View {
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
                                                     .font(.system(size: 50))
-                                                    .padding(.all).background(Color.red)
+                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
                                                     .cornerRadius(35)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
@@ -169,7 +169,7 @@ struct View1: View {
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
                                                     .font(.system(size: 50))
-                                                    .padding(.all).background(Color.red)
+                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
                                                     .cornerRadius(35)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
@@ -207,7 +207,7 @@ struct View1: View {
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
                                                     .font(.system(size: 50))
-                                                    .padding(.all).background(Color.red)
+                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
                                                     .cornerRadius(35)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
@@ -252,7 +252,7 @@ struct View1: View {
                                             .fontWeight(.bold)
                                             .foregroundColor(.white)
                                             .font(.system(size: 40))
-                                            .padding(.all).background(Color.red)
+                                            .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
                                             .cornerRadius(35)
                                     }).simultaneousGesture(TapGesture().onEnded
                                     {
@@ -296,7 +296,7 @@ struct View1: View {
                         .font(.largeTitle)
                         .multilineTextAlignment(.center)
                         .padding(.all)
-                        .background(Color.red)
+                        .background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
                         .cornerRadius(35)
                 }
             ).ignoresSafeArea()
