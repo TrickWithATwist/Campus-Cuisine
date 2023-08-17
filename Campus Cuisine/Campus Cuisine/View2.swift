@@ -33,13 +33,18 @@ struct View2: View {
         }
     }
     
-    var food: [String]{
-        let lcFood = grub.map{ $0.lowercased() }
-        
-        return searchText == "" ? lcFood : lcFood.filter{
-            $0.contains(searchText.lowercased())
+    var food: [String] {
+            let lcFood = grub.map { $0.lowercased() }
+            
+            if searchText.isEmpty
+            {
+                return lcFood
+            }
+            else
+            {
+                return lcFood.filter { $0.starts(with: searchText.lowercased()) }
+            }
         }
-    }
     
 }
 
