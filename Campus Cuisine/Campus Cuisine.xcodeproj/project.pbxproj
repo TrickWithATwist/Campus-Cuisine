@@ -18,6 +18,7 @@
 		695776D62A8A77DC001930A5 /* theclassthing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695776D52A8A77DC001930A5 /* theclassthing.swift */; };
 		695FD8762A8BC9180069CBDB /* settingsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FD8752A8BC9180069CBDB /* settingsview.swift */; };
 		695FD8782A8CFDE00069CBDB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695FD8772A8CFDE00069CBDB /* SplashView.swift */; };
+		92C0A1642A8E6D8900B2CC09 /* GrubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0A1632A8E6D8900B2CC09 /* GrubList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		695776D52A8A77DC001930A5 /* theclassthing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theclassthing.swift; sourceTree = "<group>"; };
 		695FD8752A8BC9180069CBDB /* settingsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsview.swift; sourceTree = "<group>"; };
 		695FD8772A8CFDE00069CBDB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		92C0A1632A8E6D8900B2CC09 /* GrubList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrubList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				690F07E72A8541180017AFC2 /* View1.swift */,
 				690F07D72A84FCC40017AFC2 /* Assets.xcassets */,
 				690F07D92A84FCC40017AFC2 /* Preview Content */,
+				92C0A1632A8E6D8900B2CC09 /* GrubList.swift */,
 			);
 			path = "Campus Cuisine";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				690F07D62A84FCC30017AFC2 /* ContentView.swift in Sources */,
 				690F07E62A8540870017AFC2 /* View4.swift in Sources */,
 				690F07E22A85040E0017AFC2 /* View2.swift in Sources */,
+				92C0A1642A8E6D8900B2CC09 /* GrubList.swift in Sources */,
 				695776D62A8A77DC001930A5 /* theclassthing.swift in Sources */,
 				690F07E82A8541180017AFC2 /* View1.swift in Sources */,
 				690F07D42A84FCC30017AFC2 /* Campus_CuisineApp.swift in Sources */,

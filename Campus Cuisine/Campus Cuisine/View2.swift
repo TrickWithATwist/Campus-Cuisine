@@ -1,12 +1,45 @@
 //
 //  View2.swift
 //  Campus Cuisine
+// Link to video: https://www.youtube.com/watch?v=ReHwsu_fjKs
 //
 //  //
 
 import SwiftUI
 import UIKit
 
+struct View2: View {
+    private var grub = grubList
+    @State var searchText = ""
+    
+    var body: some View {
+        NavigationView{
+            List{
+                ForEach(food, id: \.self){ food in
+                    HStack{
+                        Text(food.capitalized)
+                        Spacer()
+                        
+                    }
+                    .padding()
+                }
+            }
+            .searchable(text:$searchText)
+            .navigationTitle("Food")
+        }
+    }
+    
+    var food: [String]{
+        let lcFood = grub.map{ $0.lowercased() }
+        
+        return searchText == "" ? lcFood : lcFood.filter{
+            $0.contains(searchText.lowercased())
+        }
+    }
+    
+}
+
+/*
 //struct for restaurant objects
 struct restaurant: Identifiable
 {
@@ -48,7 +81,7 @@ struct View2: View {
                 }.font(.headline).foregroundColor(.white).padding(.all).background(Color.white).cornerRadius(35)).ignoresSafeArea()
         }
     }
-}
+}*/
 
 struct View2_Previews: PreviewProvider {
     static var previews: some View {
