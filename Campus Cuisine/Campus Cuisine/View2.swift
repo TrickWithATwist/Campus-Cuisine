@@ -37,13 +37,16 @@ struct View2: View {
     @State private var searchText = ""
     var body: some View
     {
-        Color.black.overlay(
-            HStack
-            {
-                //making search bar
-                Image(systemName: "magnifyingglass").foregroundColor(.black)
-                TextField("Search restaurant by name...", text: $searchText).foregroundColor(.black)
-            }.font(.headline).foregroundColor(.white).padding(.all).background(Color.white).cornerRadius(35)).ignoresSafeArea()
+        NavigationView
+        {
+            Color.black.overlay(
+                HStack
+                {
+                    //making search bar
+                    Image(systemName: "magnifyingglass").foregroundColor(.black)
+                    TextField("Search restaurant by name...", text: $searchText).foregroundColor(.black)
+                }.font(.headline).foregroundColor(.white).padding(.all).background(Color.white).cornerRadius(35)).ignoresSafeArea()
+        }
     }
 }
 
