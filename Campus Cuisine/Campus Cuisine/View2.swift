@@ -5,6 +5,7 @@
 //  //
 
 import SwiftUI
+import UIKit
 
 //struct for restaurant objects
 struct restaurant: Identifiable
@@ -26,9 +27,10 @@ struct restaurant: Identifiable
 //placeholder words to search for
 let searchable =
 [
-    "hello",
-    "hi",
-    "hola"
+    restaurant(name: "Your mom", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom"),
+    restaurant(name: "Your dad", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom"),
+    restaurant(name: "idk", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom")
+    
 ]
 
 struct View2: View {
@@ -36,10 +38,12 @@ struct View2: View {
     var body: some View
     {
         Color.black.overlay(
-            VStack
+            HStack
             {
-                    
-            }).ignoresSafeArea()
+                //making search bar
+                Image(systemName: "magnifyingglass").foregroundColor(.black)
+                TextField("Search restaurant by name...", text: $searchText).foregroundColor(.black)
+            }.font(.headline).foregroundColor(.white).padding(.all).background(Color.white).cornerRadius(35)).ignoresSafeArea()
     }
 }
 
