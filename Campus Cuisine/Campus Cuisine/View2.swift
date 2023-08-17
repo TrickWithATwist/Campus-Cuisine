@@ -13,10 +13,14 @@ struct View2: View {
     @State var searchText = ""
     
     var body: some View {
-        NavigationView{
-            List{
+        NavigationView
+        {
+            
+            List
+            {
                 ForEach(food, id: \.self){ food in
-                    HStack{
+                    HStack
+                    {
                         Text(food.capitalized)
                         Spacer()
                         
@@ -38,6 +42,9 @@ struct View2: View {
     }
     
 }
+
+
+
 
 /*
 //struct for restaurant objects
