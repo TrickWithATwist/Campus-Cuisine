@@ -113,6 +113,7 @@ struct View1: View {
                                 .foregroundColor(.white)
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
+                                .frame(maxWidth: .infinity, alignment: .topLeading)
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
                                         {
@@ -156,6 +157,7 @@ struct View1: View {
                                 .foregroundColor(.white)
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
+                                .frame(maxWidth: .infinity, alignment: .topLeading)
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
                                         {
@@ -193,6 +195,7 @@ struct View1: View {
                                 .foregroundColor(.white)
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
+                                .frame(maxWidth: .infinity, alignment: .topLeading)
                             //establsihing scrollview
                             ScrollView(.horizontal, showsIndicators: false, content:
                                         {
