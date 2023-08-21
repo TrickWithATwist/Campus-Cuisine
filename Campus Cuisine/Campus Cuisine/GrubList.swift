@@ -62,3 +62,6 @@ final class uhidk
     //establishing mutable variavle
     var namevar = "placeholder"
 }
+
+//establishing favs list
+public var favs: [String] = []
