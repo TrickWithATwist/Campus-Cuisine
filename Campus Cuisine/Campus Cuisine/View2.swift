@@ -12,6 +12,7 @@ struct View2: View {
     private var grub = grubList
     @State var searchText = ""
     
+    
     var body: some View {
         NavigationView
         {

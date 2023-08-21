@@ -6,21 +6,22 @@
 //
 
 import Foundation
+import SwiftUI
 
-public var grubList = [
-    "Asian 🌏",
-    "Sandwiches 🥪",
-    "Seafood 🐟",
-    "Pizza 🍕",
-    "Italian 🍝",
-    "Wings 🍗",
-    "Fast Food 🍟",
-    "Mexican 🇲🇽",
-    "Dessert 🍦",
-    "American 🇺🇸",
-    "Breakfast 🧇",
-    "Mediterranean 🥙",
-    "Burgers 🍔"]
+//public var grubList = [
+//    "Asian 🌏",
+//    "Sandwiches 🥪",
+//    "Seafood 🐟",
+//    "Pizza 🍕",
+//    "Italian 🍝",
+//    "Wings 🍗",
+//    "Fast Food 🍟",
+//    "Mexican 🇲🇽",
+//    "Dessert 🍦",
+//    "American 🇺🇸",
+//    "Breakfast 🧇",
+//    "Mediterranean 🥙",
+//    "Burgers 🍔"]
 
 
 //struct for restaurant objects
@@ -48,3 +49,9 @@ public var grubList = [
     restaurant(name: "idk", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom")
     
 ]
+
+//the fricking placeholder list ong
+public var grubList: [String] = searchable.map { $0.name }
+
+
+
