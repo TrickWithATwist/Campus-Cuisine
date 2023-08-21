@@ -10,7 +10,7 @@ import UIKit
 
 struct View2: View {
     //establishing class instance for the restaurant name crap
-    //@State public var myname = uhidk.shared
+    @State public var myname = uhidk.shared
     
     //other stuff seth added idk
     private var grub = grubList
@@ -31,7 +31,7 @@ struct View2: View {
                             Text(food.capitalized)
                         }).simultaneousGesture(TapGesture().onEnded
                         {
-                            restaurantname = food
+                            myname.namevar = food
                         })
                         //Text(food.capitalized)
                         Spacer()
@@ -106,6 +106,20 @@ struct View2: View {
         }
     }
 }*/
+
+
+//establishing restaurant view
+    struct RestaurantView: View {
+        @State public var myname = uhidk.shared
+        
+        var body: some View {
+            Text(myname.namevar)
+        }
+    }
+
+
+
+
 
 struct View2_Previews: PreviewProvider {
     static var previews: some View {
