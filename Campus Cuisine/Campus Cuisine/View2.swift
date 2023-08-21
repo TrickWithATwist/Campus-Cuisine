@@ -22,7 +22,8 @@ struct View2: View {
                 ForEach(food, id: \.self){ food in
                     HStack
                     {
-                        Text(food.capitalized)
+                        NavigationLink(food.capitalized, destination: RestaurantView())
+                        //Text(food.capitalized)
                         Spacer()
                         
                     }
