@@ -53,5 +53,13 @@ import SwiftUI
 //the fricking placeholder list ong
 public var grubList: [String] = searchable.map { $0.name }
 
-
-
+//establishing var for the restaurant view title
+public var restaurantname: String = "placeholder"
+//final class uhidk
+//{
+//    static let shared = uhidk()
+//    private init() {}
+//
+//    //establishing mutable variavle
+//    var namevar = "placeholder"
+//}

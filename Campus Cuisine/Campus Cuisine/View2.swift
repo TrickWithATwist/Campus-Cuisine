@@ -9,6 +9,10 @@ import SwiftUI
 import UIKit
 
 struct View2: View {
+    //establishing class instance for the restaurant name crap
+    //@State public var myname = uhidk.shared
+    
+    //other stuff seth added idk
     private var grub = grubList
     @State var searchText = ""
     
@@ -22,7 +26,13 @@ struct View2: View {
                 ForEach(food, id: \.self){ food in
                     HStack
                     {
-                        NavigationLink(food.capitalized, destination: RestaurantView())
+                        NavigationLink(destination: RestaurantView(), label:
+                        {
+                            Text(food.capitalized)
+                        }).simultaneousGesture(TapGesture().onEnded
+                        {
+                            restaurantname = food
+                        })
                         //Text(food.capitalized)
                         Spacer()
                         
