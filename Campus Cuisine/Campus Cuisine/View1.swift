@@ -142,7 +142,7 @@ struct View1: View {
                                             })
                                         }
                                     }
-                                }
+                                }.padding(.horizontal)
                                 
                             })
                         }
