@@ -37,6 +37,7 @@ import SwiftUI
     var rating_count:String
     var deliverycost : String
      var category: String
+     var rID: Int
    // var menu:
     //var deliveryhours:
    // var takeouthours:
@@ -45,11 +46,21 @@ import SwiftUI
 //placeholder words to search for
  public var searchable =
 [
-    restaurant(name: "Your mom", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American"),
-    restaurant(name: "Your dad", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American"),
-    restaurant(name: "idk", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American")
+    restaurant(name: "Your mom", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American", rID: 332),
+    restaurant(name: "Your dad", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American", rID: 64386483683),
+    restaurant(name: "idk", link: "yourmom", deliveryeta: "yourmom", deliverymin: "yourmom", deliveryonly: true, location: "yourmom", rating_count: "10", deliverycost: "your mom", category: "American", rID: 5795797595)
     
 ]
+
+//struct for the menu crap
+public struct menu: Identifiable
+{
+    public var id: String = UUID().uuidString
+    var item_id: Int
+    var item_name: String
+    var item_description: String
+    var rID: Int
+}
 
 //the fricking placeholder list ong
 public var grubList: [String] = searchable.map { $0.name }
