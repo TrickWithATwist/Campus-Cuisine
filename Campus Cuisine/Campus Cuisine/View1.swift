@@ -65,6 +65,7 @@ struct View1: View {
         /* establishing navigation view and hiding the bar using a modifier*/
         NavigationView
         {
+            
             /* adding background by establishing a color and having it be overlayed over all the other content on the view*/
             Color.black.ignoresSafeArea().overlay(
                 //content that the color is overlaying
@@ -76,10 +77,11 @@ struct View1: View {
                     //destination is temporary
                     
                     //Welcome back text
-                    Text("Welcome Back :)")
+                    Text("Campus Cuisine")
                         .foregroundColor(.white)
                         .fontWeight(.bold)
-                        .font(.largeTitle)
+                        .font(.custom("Georgia Bold", size: 20))
+                        
                         .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                     
                     
@@ -109,27 +111,30 @@ struct View1: View {
                         VStack
                         {
                             //Establishing Categories text
-                            Text("Categories")
-                                .foregroundColor(.white)
+                            Text("Categories:")
+                                .foregroundColor(Color(red: 0xF4/255.0, green: 0x10 / 255.0, blue: 0x00 / 255.0))
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
                                 .frame(maxWidth: .infinity, alignment: .topLeading)
+                                
                             //establsihing scrollview
-                            ScrollView(.horizontal, showsIndicators: false, content:
+                            ScrollView(.horizontal, showsIndicators: false,content:
                                         {
                                 HStack(spacing: 25)
                                 {
                                     ForEach(categories){category in
                                         HStack(spacing: 15)
                                         {
-                                            
                                             NavigationLink(destination: filtersview(), label: {
                                                 Text(category.title)
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
-                                                    .cornerRadius(35)
+                                                    .font(.system(size: 20))
+                                                    .padding(.horizontal, 25)
+                                                    .padding(.vertical, 50)
+                                                    .background(Color(red: 0xF4/255.0, green: 0x10 / 255.0, blue: 0x00 / 255.0))
+                                                    .cornerRadius(20)
+                                                    .frame(maxWidth: 250, maxHeight: 180)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
                                                 //changes class variable
@@ -137,7 +142,7 @@ struct View1: View {
                                             })
                                         }
                                     }
-                                }.padding(.horizontal)
+                                }
                                 
                             })
                         }
@@ -153,8 +158,8 @@ struct View1: View {
                         VStack
                         {
                             //Establishing Categories text
-                            Text("By Cultures")
-                                .foregroundColor(.white)
+                            Text("By Cultures:")
+                                .foregroundColor(Color(red: 0xF4/255.0, green: 0x40 / 255.0, blue: 0x00 / 255.0))
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
                                 .frame(maxWidth: .infinity, alignment: .topLeading)
@@ -170,9 +175,12 @@ struct View1: View {
                                                 Text(category.title)
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
-                                                    .cornerRadius(35)
+                                                    .font(.system(size: 20))
+                                                    .padding(.horizontal, 25)
+                                                    .padding(.vertical, 50)
+                                                    .background(Color(red: 0xF4/255.0, green: 0x40 / 255.0, blue: 0x00 / 255.0))
+                                                    .cornerRadius(20)
+                                                    .frame(maxWidth: 250, maxHeight: 180)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
                                                 //changes class variable
@@ -191,8 +199,8 @@ struct View1: View {
                         VStack
                         {
                             //Establishing Categories text
-                            Text("By Food")
-                                .foregroundColor(.white)
+                            Text("By Food:")
+                                .foregroundColor(Color(red: 0xF4/255.0, green: 0x70 / 255.0, blue: 0x00 / 255.0))
                                 .fontWeight(.bold)
                                 .font(.system(size: 40))
                                 .frame(maxWidth: .infinity, alignment: .topLeading)
@@ -209,9 +217,12 @@ struct View1: View {
                                                 Text(category.title)
                                                     .fontWeight(.bold)
                                                     .foregroundColor(.white)
-                                                    .font(.system(size: 50))
-                                                    .padding(.all).background(Color(red: 0xF4/255.0, green: 0x49 / 255.0, blue: 0x00 / 255.0))
-                                                    .cornerRadius(35)
+                                                    .font(.system(size: 20))
+                                                    .padding(.horizontal, 25)
+                                                    .padding(.vertical, 50)
+                                                    .background(Color(red: 0xF4/255.0, green: 0x70 / 255.0, blue: 0x00 / 255.0))
+                                                    .cornerRadius(20)
+                                                    .frame(maxWidth: 250, maxHeight: 180)
                                             }).simultaneousGesture(TapGesture().onEnded
                                             {
                                                 //changes class variable
