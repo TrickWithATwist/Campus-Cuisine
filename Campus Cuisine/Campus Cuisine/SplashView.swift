@@ -29,7 +29,7 @@ struct SplashView: View
                     else
                     {
                         Rectangle().background(Color.black)
-                        Image("logo-white").resizable().scaledToFit()
+                        Image("logo-orange-dark").resizable().scaledToFit()
                     }
                 }.onAppear
                 {
@@ -51,8 +51,8 @@ struct SplashView: View
                     }
                     else
                     {
-                        Rectangle().background(Color.black)
-                        Image("logo-black").resizable().scaledToFit()
+                        Rectangle().background(Color.white)
+                        Image("logo-orange-dark").resizable().scaledToFit()
                     }
                 }.onAppear
                 {

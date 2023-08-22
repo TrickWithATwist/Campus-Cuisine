@@ -143,7 +143,6 @@ struct View1: View {
                                         }
                                     }
                                 }.padding(.horizontal)
-                                
                             })
                         }
                         //Creating Vstack for Cultures section
