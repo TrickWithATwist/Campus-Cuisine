@@ -2,7 +2,7 @@
 //  lolview.swift
 //  Campus Cuisine
 //
-//  Created by Akram Djomehri on 8/21/23.
+
 //
 
 import SwiftUI

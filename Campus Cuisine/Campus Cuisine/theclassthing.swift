@@ -2,7 +2,7 @@
 //  theclassthing.swift
 //  Campus Cuisine
 //
-//  Created by Akram Djomehri on 8/14/23.
+
 //
 
 import SwiftUI

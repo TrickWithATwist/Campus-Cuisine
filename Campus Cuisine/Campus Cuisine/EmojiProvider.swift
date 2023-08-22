@@ -2,7 +2,7 @@
 //  EmojiProvider.swift
 //  Campus Cuisine
 //
-//  Created by Seth Neubauer on 8/21/23.
+
 //
 
 import Foundation

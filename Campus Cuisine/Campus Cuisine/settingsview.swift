@@ -2,8 +2,7 @@
 //  settingsview.swift
 //  Campus Cuisine
 //
-//  Created by Akram Djomehri on 8/15/23.
-//
+
 
 import SwiftUI
 
