@@ -14,6 +14,57 @@ struct View2: View {
     
     @State private var searchText: String = ""
     
+    private var filteredGrubList: [String]
+    {
+        if searchText.isEmpty { return grubList }
+        return grubList.filter
+        {
+            $0.lowercased().hasPrefix(searchText.lowercased())
+        }
+    }
+    
+    var body: some View {
+        NavigationView
+        {
+            List(filteredGrubList, id: \.self) { grub in
+                NavigationLink(destination: {
+                    GrubDetailsView(grub: grub)
+                })
+                {
+                    Text(grub)
+                        .padding(6)
+                }
+            }
+            .navigationTitle("Search")
+            .searchable(
+                text: $searchText,
+                placement: .navigationBarDrawer(displayMode: .always),
+                prompt: "search for restaurants.."
+            )
+        }
+    }
+}
+
+struct GrubDetailsView: View
+{
+    let grub: String
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(grub)
+                .font(.largeTitle)
+                .bold()
+            // Add more details here as needed
+            Spacer()
+        }
+        .padding()
+    }
+}
+
+/*struct View2: View {
+    
+    @State private var searchText: String = ""
+    
     private var searchResults: [EmojiDetails]
     {
         let results = EmojiProvider.all()
@@ -66,7 +117,7 @@ struct EmojiDetailsView: View
         }
         .padding([.leading, .trailing])
     }
-}
+}*/
 /*
 struct View2: View {
     //establishing class instance for the restaurant name crap
