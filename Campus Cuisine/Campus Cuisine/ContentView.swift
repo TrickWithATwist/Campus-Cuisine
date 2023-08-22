@@ -40,11 +40,6 @@ struct ContentView: View {
             {
                 Label("Map", systemImage: "map")
             }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
-            //Star
-            View4().tabItem()
-            {
-                Label("Favorites", systemImage: "star")
-            }.padding(.bottom).background(Color.white).frame(maxHeight: .infinity)
             /* Essentially what this tab view is doing is allowing us to add modifiers to the other view files so that we can access them by icons with subtitles, the content view will essentially be the viewer for everything because it will project other screens if that makes sense*/
             
         }
