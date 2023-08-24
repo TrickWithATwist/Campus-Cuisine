@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C87657B2A977CAF00AFC6A4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8765792A977CAF00AFC6A4 /* restaurants.json */; };
-		5C87657C2A977CAF00AFC6A4 /* menu_items.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C87657A2A977CAF00AFC6A4 /* menu_items.json */; };
-		5C87657E2A977CBC00AFC6A4 /* JSONmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C87657D2A977CBC00AFC6A4 /* JSONmanager.swift */; };
+		5C8765802A97808F00AFC6A4 /* JSONimplementation in Resources */ = {isa = PBXBuildFile; fileRef = 5C87657F2A97808F00AFC6A4 /* JSONimplementation */; };
 		690F07D42A84FCC30017AFC2 /* Campus_CuisineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */; };
 		690F07D62A84FCC30017AFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F07D52A84FCC30017AFC2 /* ContentView.swift */; };
 		690F07D82A84FCC40017AFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690F07D72A84FCC40017AFC2 /* Assets.xcassets */; };
@@ -27,9 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C8765792A977CAF00AFC6A4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = restaurants.json; path = ../../../../restaurants.json; sourceTree = "<group>"; };
-		5C87657A2A977CAF00AFC6A4 /* menu_items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu_items.json; path = ../../../../menu_items.json; sourceTree = "<group>"; };
-		5C87657D2A977CBC00AFC6A4 /* JSONmanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONmanager.swift; path = "../../../../../Apple Developer Foundation/ApiTest/ApiTest/Preview Content/JSONmanager.swift"; sourceTree = "<group>"; };
+		5C87657F2A97808F00AFC6A4 /* JSONimplementation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSONimplementation; path = ../../JSONimplementation; sourceTree = "<group>"; };
 		690F07D02A84FCC30017AFC2 /* Campus Cuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Cuisine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690F07D32A84FCC30017AFC2 /* Campus_CuisineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_CuisineApp.swift; sourceTree = "<group>"; };
 		690F07D52A84FCC30017AFC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,9 +89,7 @@
 				690F07D92A84FCC40017AFC2 /* Preview Content */,
 				92C0A1632A8E6D8900B2CC09 /* GrubList.swift */,
 				92BA93A72A93B1B000654C94 /* EmojiProvider.swift */,
-				5C87657A2A977CAF00AFC6A4 /* menu_items.json */,
-				5C87657D2A977CBC00AFC6A4 /* JSONmanager.swift */,
-				5C8765792A977CAF00AFC6A4 /* restaurants.json */,
+				5C87657F2A97808F00AFC6A4 /* JSONimplementation */,
 			);
 			path = "Campus Cuisine";
 			sourceTree = "<group>";
@@ -167,9 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				690F07DB2A84FCC40017AFC2 /* Preview Assets.xcassets in Resources */,
-				5C87657C2A977CAF00AFC6A4 /* menu_items.json in Resources */,
-				5C87657B2A977CAF00AFC6A4 /* restaurants.json in Resources */,
 				690F07D82A84FCC40017AFC2 /* Assets.xcassets in Resources */,
+				5C8765802A97808F00AFC6A4 /* JSONimplementation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +175,6 @@
 			files = (
 				690F07E42A8504290017AFC2 /* View3.swift in Sources */,
 				695FD8762A8BC9180069CBDB /* settingsview.swift in Sources */,
-				5C87657E2A977CBC00AFC6A4 /* JSONmanager.swift in Sources */,
 				690F07D62A84FCC30017AFC2 /* ContentView.swift in Sources */,
 				690F07E62A8540870017AFC2 /* View4.swift in Sources */,
 				690F07E22A85040E0017AFC2 /* View2.swift in Sources */,

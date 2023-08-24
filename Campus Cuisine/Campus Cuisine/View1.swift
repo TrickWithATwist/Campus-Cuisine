@@ -315,3 +315,5 @@ struct View1: View {
             ).ignoresSafeArea()
         }
     }
+
+    
