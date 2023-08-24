@@ -1,0 +1,1112 @@
+[
+    {
+        "restaurant_id": 223,
+        "restaurant_name": "China Flavor",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/china-flavor-east-lansing",
+        "yelp_rating": "2.9",
+        "yelp_rating_count": "313 ratings",
+        "location_address": "2033 E Michigan Ave Lansing MI, 48912",
+        "cuisines": "Chinese Food, Cantonese, Chinese, Soup",
+        "categories": "Asian, Asian, Asian"
+    },
+    {
+        "restaurant_id": 224,
+        "restaurant_name": "The Urban Cup",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/the-urban-cup-e-grand-river-rd",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2225 E Grand River Rd Lansing MI, 48912",
+        "cuisines": "American, Sandwiches, Breakfast, Coffee & Tea, Soup",
+        "categories": "American, Sandwiches, Breakfast"
+    },
+    {
+        "restaurant_id": 225,
+        "restaurant_name": "Jose's Cuban Sandwich and Deli - 2315 Grand River",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/joses-cuban-sandwich-and-deli-grand-river-ave",
+        "yelp_rating": "4.5",
+        "yelp_rating_count": "358 ratings",
+        "location_address": "2315 E Grand River Ave Lansing MI, 48912",
+        "cuisines": "Subs, Deli, Cuban Food, Cuban, Delis, Sandwiches",
+        "categories": "Sandwiches, Sandwiches, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 226,
+        "restaurant_name": "East Cafe",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/east-cafe",
+        "yelp_rating": "3.5",
+        "yelp_rating_count": "43 ratings",
+        "location_address": "1001 East Grand River Avenue East Lansing MI, 48823",
+        "cuisines": "Chinese Food, Chinese",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 227,
+        "restaurant_name": "Leo's Coney Island",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/leos-coney-island-albert-avenue",
+        "yelp_rating": "2.8",
+        "yelp_rating_count": "45 ratings",
+        "location_address": "333 Albert Ave East Lansing MI, 48823",
+        "cuisines": "Hot Dogs, Diners",
+        "categories": "American"
+    },
+    {
+        "restaurant_id": 228,
+        "restaurant_name": "Grand Traverse Pie Company",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/grand-traverse-pie-company",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "21 ratings",
+        "location_address": "1403 E Grand River East Lansing MI, 48823",
+        "cuisines": "Breakfast, Sandwiches, American, Salad, Soup",
+        "categories": "Breakfast, Sandwiches, American"
+    },
+    {
+        "restaurant_id": 229,
+        "restaurant_name": "Bob Evans - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/bob-evans-lansing",
+        "yelp_rating": "3.4",
+        "yelp_rating_count": "14 ratings",
+        "location_address": "900 American Rd. Lansing MI, 48911",
+        "cuisines": "American, American (Traditional), Salad, Breakfast & Brunch, Comfort Food, Bed & Breakfast",
+        "categories": "American, American, Breakfast, Breakfast"
+    },
+    {
+        "restaurant_id": 230,
+        "restaurant_name": "Cracker Barrel - Commerical Dr",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/cracker-barrel-commercial",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "608 Commercial Dr Lansing Mi, 48917",
+        "cuisines": "American, Southern, Breakfast, American (Traditional), Breakfast & Brunch",
+        "categories": "American, American, Breakfast, American, Breakfast"
+    },
+    {
+        "restaurant_id": 231,
+        "restaurant_name": "Dan's Coney Island",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/dans-coney-island-s-pennsylania-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5600 S Pennsylvania Ave Lansing MI, 48911",
+        "cuisines": "Breakfast, Sandwiches, Burgers, Diners, Breakfast & Brunch, Fish & Chips",
+        "categories": "Breakfast, Sandwiches, Burgers, American, Breakfast"
+    },
+    {
+        "restaurant_id": 232,
+        "restaurant_name": "Sunshine Diner",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/sunshine-diner-s-pennsylvania-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "1040 S Pennsylvania Ave Lansing MI, 48912",
+        "cuisines": "Breakfast, Sandwiches, Burgers, Diners, Soup, Breakfast & Brunch",
+        "categories": "Breakfast, Sandwiches, Burgers, American, Breakfast"
+    },
+    {
+        "restaurant_id": 233,
+        "restaurant_name": "Cracker Barrel - Woodlake Dr",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/cracker-barrel-woodlake-dr",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2285 Woodlake Dr Alaiedon Township MI, 48864",
+        "cuisines": "American, Southern, Breakfast",
+        "categories": "American, American, Breakfast"
+    },
+    {
+        "restaurant_id": 234,
+        "restaurant_name": "The Daily Bagel",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/the-daily-bagel-s-washington-square",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Breakfast • Subs & Sandwiches",
+        "categories": "Breakfast, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 235,
+        "restaurant_name": "Athena's Diner",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/athenas-diner-s-cedar-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "3109 S Cedar St Lansing MI, 48910",
+        "cuisines": "Diners, Breakfast, Brunch, Greek, Breakfast & Brunch",
+        "categories": "American, Breakfast, Mediterranean, Breakfast"
+    },
+    {
+        "restaurant_id": 236,
+        "restaurant_name": "Sparty's Coney Island",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/spartys-coney-island-n-clippert-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "300 N Clippert St Lansing MI, 48912",
+        "cuisines": "Breakfast, American, Comfort Food, Breakfast & Brunch, American (Traditional)",
+        "categories": "Breakfast, American, Breakfast, American"
+    },
+    {
+        "restaurant_id": 237,
+        "restaurant_name": "Jose's Cuban Sandwich and Deli - Pennsylvania Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/joses-cuban-sandwich-and-deli-pennsylvania-ave",
+        "yelp_rating": "4.6",
+        "yelp_rating_count": "56 ratings",
+        "location_address": "401 S Pennsylvania Ave East Lansing MI, 48912",
+        "cuisines": "Subs & Sandwiches",
+        "categories": "Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 238,
+        "restaurant_name": "Panda Gourmet - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/panda-gourmet-lansing",
+        "yelp_rating": "4.6",
+        "yelp_rating_count": "7 ratings",
+        "location_address": "6250 S. Cedar St #1 Lansing MI, 48911",
+        "cuisines": "Chinese, Szechuan",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 239,
+        "restaurant_name": "Charlie Kangs Chinese & Korean Cuisine",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/charlie-kangs-chinese-and-korean-cuisine",
+        "yelp_rating": "4.4",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Chinese, Korean",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 240,
+        "restaurant_name": "ANQI Sushi Express",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/anqi-sushi-express-lansing",
+        "yelp_rating": "4.4",
+        "yelp_rating_count": "42 ratings",
+        "location_address": "111 E Allegan St Lansing MI, 48933",
+        "cuisines": "Sushi, Asian, Sushi Bars",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 241,
+        "restaurant_name": "Asian Gourmet",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/asian-gourmet",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "394 ratings",
+        "location_address": "2003 E Michigan Ave Lansing MI, 48176",
+        "cuisines": "Chinese, Asian, Seafood, Soup, Chicken, Rice, Thai",
+        "categories": "Asian, Seafood, Wings, Asian"
+    },
+    {
+        "restaurant_id": 242,
+        "restaurant_name": "Jose's Cuban Sandwich and Deli - 574 Grand River",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/joses-cuban",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "29 ratings",
+        "location_address": "574 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "Subs, Sandwiches, Deli, Cuban Food, Cuban, Delis",
+        "categories": "Sandwiches, Sandwiches, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 243,
+        "restaurant_name": "Ozzy's Kabob - Okemos",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/ozzys-kabob-east-lansing",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "18 ratings",
+        "location_address": "3536 Meridian Crossing Dr Okemos MI, 48864",
+        "cuisines": "Mediterranean, Middle Eastern, Mediterranean Cuisine, Lebanese, Buffets",
+        "categories": "Mediterranean, Mediterranean, Mediterranean, Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 244,
+        "restaurant_name": "Bangkok House",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/bangkok-house",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Thai Food • Vegetarian",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 245,
+        "restaurant_name": "Apple Jade",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/apple-jade",
+        "yelp_rating": "4.2",
+        "yelp_rating_count": "11 ratings",
+        "location_address": "300 N Clippert Lansing Charter Township MI, 48912",
+        "cuisines": "Seafood, Chinese Food, Vegetarian, Asian Food, Healthy Food, Chicken, Taiwanese, Chinese, Bubble Tea",
+        "categories": "Seafood, Asian, Wings, Asian"
+    },
+    {
+        "restaurant_id": 246,
+        "restaurant_name": "Conrad's Grill II",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/conrads-grill-east-lansing",
+        "yelp_rating": "4.1",
+        "yelp_rating_count": "1458 ratings",
+        "location_address": "1219 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "American Food, Lunch, Dinner, Late Night Food, American (Traditional)",
+        "categories": "American, American"
+    },
+    {
+        "restaurant_id": 247,
+        "restaurant_name": "Jimmy's Pub",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/jimmys-pub",
+        "yelp_rating": "4.1",
+        "yelp_rating_count": "308 ratings",
+        "location_address": "16830 Chandler Rd East Lansing MI, 48823",
+        "cuisines": "Subs & Sandwiches, Seafood, Burgers, Bar\/Pub Food, Healthy Food, Chicken, American Food, Pubs, Pizza",
+        "categories": "Sandwiches, Sandwiches, Seafood, Burgers, Wings, American, Pizza"
+    },
+    {
+        "restaurant_id": 248,
+        "restaurant_name": "Panda House",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/panda-house-east-lansing",
+        "yelp_rating": "4",
+        "yelp_rating_count": "353 ratings",
+        "location_address": "3499 E Lake Lansing Rd East Lansing MI, 48823",
+        "cuisines": "Chinese Food, Asian Food, Chinese",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 249,
+        "restaurant_name": "Woody's Oasis",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/woodys-oasis-east-lansing",
+        "yelp_rating": "4",
+        "yelp_rating_count": "18 ratings",
+        "location_address": "1050 Trowbridge Rd East Lansing MI, 48823",
+        "cuisines": "Mediterranean, Sandwiches, Catering",
+        "categories": "Mediterranean, Sandwiches"
+    },
+    {
+        "restaurant_id": 250,
+        "restaurant_name": "Colala Express",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/colala-express",
+        "yelp_rating": "4",
+        "yelp_rating_count": "10 ratings",
+        "location_address": "2010 W. Saginaw St Lansing MI, 48915",
+        "cuisines": "Chinese",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 251,
+        "restaurant_name": "Eastside Fish Fry",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/eastside-fish-fry",
+        "yelp_rating": "2.9",
+        "yelp_rating_count": "121 ratings",
+        "location_address": "2417 East Kalamazoo Street Lansing MI, 48912",
+        "cuisines": "Seafood, Wings, Burgers, Dessert, Fish and Chips, Chicken Wings, Seafood Markets, Fish & Chips",
+        "categories": "Seafood, Wings, Burgers, Dessert, Wings, Wings, Seafood"
+    },
+    {
+        "restaurant_id": 252,
+        "restaurant_name": "Conrad's Grill III",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/conrads-grill-iii",
+        "yelp_rating": "3.8",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Healthy Food • American Food",
+        "categories": "American"
+    },
+    {
+        "restaurant_id": 253,
+        "restaurant_name": "Swagath Indian Cuisine",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/swagath-indian-cuisine",
+        "yelp_rating": "3.8",
+        "yelp_rating_count": "82 ratings",
+        "location_address": "1060 Trowbridge Rd East Lansing MI, 48823",
+        "cuisines": "Indian Food, Indian, Desserts, Seafood, Halal",
+        "categories": "Asian, Asian, Dessert, Dessert, Seafood"
+    },
+    {
+        "restaurant_id": 254,
+        "restaurant_name": "AnQi Sushi",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/anqi-sushi-express",
+        "yelp_rating": "3.8",
+        "yelp_rating_count": "17 ratings",
+        "location_address": "111 East Allegan Street Lansing MI, 48933",
+        "cuisines": "Japanese Food, Sushi, Fusion, Sushi Bars",
+        "categories": "Asian, Asian, Asian"
+    },
+    {
+        "restaurant_id": 255,
+        "restaurant_name": "El Oasis",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/el-oasis-lansing",
+        "yelp_rating": "3.8",
+        "yelp_rating_count": "14 ratings",
+        "location_address": "5101 S. Pennsylvania Lansing MI, 48912",
+        "cuisines": "Mexican, Food Trucks",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 256,
+        "restaurant_name": "The Kung Fu",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/the-kung-fu",
+        "yelp_rating": "3.7",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Chinese Food • Asian Food",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 257,
+        "restaurant_name": "Sugar Shack",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/sugar-shack",
+        "yelp_rating": "3.7",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Dessert • Bakery Food",
+        "categories": "Dessert"
+    },
+    {
+        "restaurant_id": 258,
+        "restaurant_name": "Thai Village",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/thai-village",
+        "yelp_rating": "3.4",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Thai Food • Lunch",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 259,
+        "restaurant_name": "McAlister's Deli (Eastwood)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/mcalisters-deli-eastwood",
+        "yelp_rating": "3.4",
+        "yelp_rating_count": "25 ratings",
+        "location_address": "2901 Preyde Blvd Lansing MI, 48912",
+        "cuisines": "Subs & Sandwiches, Deli, Pasta, Healthy Food, American Food, Sandwiches, Delis, Salad",
+        "categories": "Sandwiches, Sandwiches, Sandwiches, Italian, American, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 260,
+        "restaurant_name": "Taco's E Mas",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/tacos-e-mas",
+        "yelp_rating": "3.3",
+        "yelp_rating_count": "45 ratings",
+        "location_address": "3500 Cedar St Lansing MI, 48910",
+        "cuisines": "Mexican Food, Mexican",
+        "categories": "Mexican, Mexican"
+    },
+    {
+        "restaurant_id": 261,
+        "restaurant_name": "Jersey Giant",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/jersey-giant",
+        "yelp_rating": "3.3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Subs & Sandwiches • American Food",
+        "categories": "Sandwiches, Sandwiches, American"
+    },
+    {
+        "restaurant_id": 262,
+        "restaurant_name": "New Aladdin",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/new-aladdin",
+        "yelp_rating": "3.3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Subs & Sandwiches • Lebanese Food",
+        "categories": "Sandwiches, Sandwiches, Mediterranean"
+    },
+    {
+        "restaurant_id": 263,
+        "restaurant_name": "Mikho's Mediterranean Cuisine",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/mikhos-mediterranean-cuisine",
+        "yelp_rating": "3.2",
+        "yelp_rating_count": "69 ratings",
+        "location_address": "3824 S Cedar St Lansing MI, 48910",
+        "cuisines": "Salads, Middle Eastern, Mediterranean, Hookah Bars",
+        "categories": "Mediterranean, Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 264,
+        "restaurant_name": "Taste of Thai",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/taste-of-thai-east-lansing-mi",
+        "yelp_rating": "3.2",
+        "yelp_rating_count": "31 ratings",
+        "location_address": "2838 E Grand River St 2 East Lansing MI, 48823",
+        "cuisines": "Thai",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 265,
+        "restaurant_name": "Falsetta's Casa Nova",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/falsettas",
+        "yelp_rating": "3.2",
+        "yelp_rating_count": "18 ratings",
+        "location_address": "138 S Waverly Rd Lansing Charter Township MI, 48917",
+        "cuisines": "Subs & Sandwiches, Seafood, Burgers, Pasta, Pizza, Italian Food, Healthy Food, Chicken, American Food, Italian",
+        "categories": "Sandwiches, Sandwiches, Seafood, Burgers, Italian, Pizza, Italian, Wings, American, Italian"
+    },
+    {
+        "restaurant_id": 266,
+        "restaurant_name": "Ya Ya's Flame Broiled Chicken",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/ya-yas-flame-broiled-chicken",
+        "yelp_rating": "3.2",
+        "yelp_rating_count": "17 ratings",
+        "location_address": "3011 E Saginaw St Lansing MI, 48912",
+        "cuisines": "Chicken, American (New)",
+        "categories": "Wings, American"
+    },
+    {
+        "restaurant_id": 267,
+        "restaurant_name": "Boston's Gourmet Pizza & Restaurant",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/bostons-gourmet-pizza-and-restaurant",
+        "yelp_rating": "3.2",
+        "yelp_rating_count": "9 ratings",
+        "location_address": "3301 Towne Centre Blvd. Lansing MI, 48912",
+        "cuisines": "Pizza, Pasta, Burgers, Sports Bars",
+        "categories": "Pizza, Italian, Burgers"
+    },
+    {
+        "restaurant_id": 268,
+        "restaurant_name": "El Azteco",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/el-azteco",
+        "yelp_rating": "3",
+        "yelp_rating_count": "98 ratings",
+        "location_address": "1016 W Saginaw St Lansing MI, 48915",
+        "cuisines": "Mexican Food, Mexican",
+        "categories": "Mexican, Mexican"
+    },
+    {
+        "restaurant_id": 269,
+        "restaurant_name": "Boston Market",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/boston-market",
+        "yelp_rating": "3",
+        "yelp_rating_count": "9 ratings",
+        "location_address": "6435 S Cedar St Lansing MI, 48911",
+        "cuisines": "Sandwiches, Chicken, Comfort Food, American (Traditional), Caterers, Chicken Shop",
+        "categories": "Sandwiches, Wings, American, Wings"
+    },
+    {
+        "restaurant_id": 270,
+        "restaurant_name": "Lansing Fish Market",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/lansing-fish-market",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Wings • Subs & Sandwiches",
+        "categories": "Wings, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 271,
+        "restaurant_name": "Mexico To Go",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/mexico-to-go-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Mexican Food • Lunch",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 272,
+        "restaurant_name": "Menchies Frozen Yogurt",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/menchies-frozen-yogurt-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2721 Preyde Blvd. Lansing MI, 48912",
+        "cuisines": "Frozen Yogurt, Desserts, Ice Cream & Frozen Yogurt",
+        "categories": "Dessert, Dessert, Dessert, Dessert, Dessert"
+    },
+    {
+        "restaurant_id": 273,
+        "restaurant_name": "Steakhouse Philly",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/steakhouse-philly",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "3020 E. Kalamazoo Lansing MI, 48912",
+        "cuisines": "Burgers, Steak, Gyros, Sandwiches, Steakhouses",
+        "categories": "Burgers, Sandwiches"
+    },
+    {
+        "restaurant_id": 274,
+        "restaurant_name": "Los Tres Amigos - W. Saginaw Hwy",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/los-tres-amigos-w-saginaw-hwy",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Mexican Food • Lunch",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 275,
+        "restaurant_name": "Los Tres Amigos - S. Cedar",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/los-tres-amigos-s-cedar",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "6405 S. Cedar Lansing MI, 48910",
+        "cuisines": "Mexican",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 276,
+        "restaurant_name": "Wayback Burgers - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/wayback-burgers-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5021 W Saginaw Highway Lansing MI, 48917",
+        "cuisines": "Burgers, American (Traditional), Hot Dogs",
+        "categories": "Burgers, American"
+    },
+    {
+        "restaurant_id": 277,
+        "restaurant_name": "Logan's Roadhouse - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/logans-roadhouse-east-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5800 W Saginaw Lansing MI, 48917",
+        "cuisines": "Sandwiches, American, Burgers, Bar Food, Steakhouse, American (Traditional), Barbeque, Steakhouses",
+        "categories": "Sandwiches, American, Burgers, American"
+    },
+    {
+        "restaurant_id": 278,
+        "restaurant_name": "Hong Kong Restaurant - East Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/hong-kong-restaurant-east-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "315 S. Homer St. Lansing MI, 48912",
+        "cuisines": "Asian, Chinese",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 279,
+        "restaurant_name": "Sahara's Delight",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/saharas-delight",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "119 S. Washington Lansing MI, 48933",
+        "cuisines": "Mediterranean, Sandwiches",
+        "categories": "Mediterranean, Sandwiches"
+    },
+    {
+        "restaurant_id": 280,
+        "restaurant_name": "Italian Village Pizza - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/italian-village-pizza-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5532 W Saginaw Hwy Lansing MI, 48917",
+        "cuisines": "Pizza, Pasta, Italian",
+        "categories": "Pizza, Italian, Italian"
+    },
+    {
+        "restaurant_id": 281,
+        "restaurant_name": "Reno's - East",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/reno-east",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "1310 Abbot Rd East Lansing MI, 48823",
+        "cuisines": "Burgers, Sandwiches, Bar Food, Sports Bars, American (Traditional)",
+        "categories": "Burgers, Sandwiches, American"
+    },
+    {
+        "restaurant_id": 282,
+        "restaurant_name": "Big John Steak & Onion - S. Cedar",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/big-john-steak-and-onion-s-cedar",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "6541 S Cedar Lansing MI, 48911",
+        "cuisines": "Sandwiches",
+        "categories": "Sandwiches"
+    },
+    {
+        "restaurant_id": 283,
+        "restaurant_name": "A&W - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/a-and-w-root-beer",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "4919 W Saginaw Lansing MI, 48917",
+        "cuisines": "Burgers, Sandwiches, American, Fast Food, Hot Dogs",
+        "categories": "Burgers, Sandwiches, American, Fast_Food"
+    },
+    {
+        "restaurant_id": 284,
+        "restaurant_name": "Arcadia Smokehouse",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/arcadia-smokehouse",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2101 E Michigan Ave Lansing MI, 48912",
+        "cuisines": "BBQ, Sandwiches, Pizza, Smokehouse, Brewpubs",
+        "categories": "American, Sandwiches, Pizza"
+    },
+    {
+        "restaurant_id": 285,
+        "restaurant_name": "Mancino's - Cedar",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/mancinos-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "6250 S. Cedar St Lansing Mi, 48911",
+        "cuisines": "Pizza, Grinders",
+        "categories": "Pizza"
+    },
+    {
+        "restaurant_id": 286,
+        "restaurant_name": "Little Panda",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/little-panda",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Chinese Food",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 287,
+        "restaurant_name": "Thailand Restaurant",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/thailand-restaurant-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2220 N. Larch Lansing Mi, 48906",
+        "cuisines": "Thai",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 288,
+        "restaurant_name": "Rally's",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/rallys-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "American Food • Fast Food",
+        "categories": "American, Fast_Food"
+    },
+    {
+        "restaurant_id": 289,
+        "restaurant_name": "Popeye's Chicken - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/popeyes-chicken-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "3010 S Martin Luther King Jr Blvd Lansing MI, 48910",
+        "cuisines": "Chicken, Southern, Fast Food, Chicken Wings",
+        "categories": "Wings, American, Fast_Food, Wings, Wings"
+    },
+    {
+        "restaurant_id": 290,
+        "restaurant_name": "Honey Baked Ham",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/honey-baked-ham-w-saginaw",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5601 W. Saginaw Hwy Lansing MI, 48917",
+        "cuisines": "Sandwiches, Delis, Meat Shops",
+        "categories": "Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 291,
+        "restaurant_name": "Persis Indian Grill",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/persis-indian-grill-lansing",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Indian Food",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 292,
+        "restaurant_name": "Potbelly Sandwich Shop - E Grand River Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/potbelly-sandwich-shop-233-east-grand-river-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "233 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "Sandwiches, Fast Food, Salad",
+        "categories": "Sandwiches, Fast_Food"
+    },
+    {
+        "restaurant_id": 293,
+        "restaurant_name": "Ruckus Ramen",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/ruckus-ramen",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2021 E Michigan Ave Lansing Lansing MI, 48912",
+        "cuisines": "Ramen, Chinese Food, Japanese Food",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 294,
+        "restaurant_name": "Tabooli (East)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/tabooli-w-grand-river",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "515 W Grand River Lansing MI, 48823",
+        "cuisines": "Mediterranean Food, Salad, Falafel, Mediterranean, Wraps",
+        "categories": "Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 295,
+        "restaurant_name": "Tabooli (West)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/tabooli-s-waverly-rd",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "698 S Waverly Rd Lansing MI, 48917",
+        "cuisines": "Mediterranean Food, Mediterranean",
+        "categories": "Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 296,
+        "restaurant_name": "Zaytoon (Holt)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/zaytoon-aurelius-rd",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "1979 Aurelius Rd. Lansing MI, 48842",
+        "cuisines": "Mediterranean Food, Mediterranean, Middle Eastern",
+        "categories": "Mediterranean, Mediterranean, Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 297,
+        "restaurant_name": "Aldaco's Authentic Mexican",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/aldacos-authentic-mexican-s-cedar-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "6724 S. Cedar St. Lansing MI, 48911",
+        "cuisines": "Mexican, Tacos, Burritos",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 298,
+        "restaurant_name": "Mr. Corned Beef Deli",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/mr-corned-beef-deli-n-clippert-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "401 N Clippert St Lansing MI, 48912",
+        "cuisines": "Sandwiches, Subs, Deli, Chicken Wings, Ice Cream & Frozen Yogurt",
+        "categories": "Sandwiches, Sandwiches, Sandwiches, Wings, Wings, Dessert, Dessert"
+    },
+    {
+        "restaurant_id": 299,
+        "restaurant_name": "Chen's Restaurant",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/chens-restaurant-e-thomas-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "600 E Thomas St Lansing MI, 48906",
+        "cuisines": "Chinese",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 300,
+        "restaurant_name": "Chipotle - W Saginaw Hwy",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/chipotle-w-saginaw-hwy",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5805 W Saginaw Hwy Lansing MI, 48917",
+        "cuisines": "Mexican, Fast Food",
+        "categories": "Mexican, Fast_Food"
+    },
+    {
+        "restaurant_id": 301,
+        "restaurant_name": "Fazoli's - S Cedar St",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/fazolis-s-cedar-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5705 S Cedar St Lansing MI, 48911",
+        "cuisines": "Italian, Pasta, Fast Food, Pizza",
+        "categories": "Italian, Italian, Fast_Food, Pizza"
+    },
+    {
+        "restaurant_id": 302,
+        "restaurant_name": "Blimpie Subs - E Michigan Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/blimpie-e-michigan-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Subs & Sandwiches • Fast Food",
+        "categories": "Sandwiches, Sandwiches, Fast_Food"
+    },
+    {
+        "restaurant_id": 303,
+        "restaurant_name": "City Limits",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/city-limits-e-saginaw-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2120 E Saginaw St East Lansing Mi, 48823",
+        "cuisines": "American, Sandwiches, Pizza, Burgers, Bowling, Sports Bars",
+        "categories": "American, Sandwiches, Pizza, Burgers"
+    },
+    {
+        "restaurant_id": 304,
+        "restaurant_name": "Georgio's Gourmet Pizza",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/georgios-gourment-pizza-e-grand-river-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "918 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "Pizza, Italian",
+        "categories": "Pizza, Italian"
+    },
+    {
+        "restaurant_id": 305,
+        "restaurant_name": "King Subs",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/king-subs-n-grand-river-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2602 N Grand River Ave Lansing MI, 48906",
+        "cuisines": "Sandwiches, American",
+        "categories": "Sandwiches, American"
+    },
+    {
+        "restaurant_id": 306,
+        "restaurant_name": "Lil Emil's",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/lil-emils-w-grand-river-rd",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "1982 W Grand River Rd Okemos MI, 48864",
+        "cuisines": "Italian, Pasta, Sandwiches, Salad",
+        "categories": "Italian, Italian, Sandwiches"
+    },
+    {
+        "restaurant_id": 307,
+        "restaurant_name": "Westgate Tavern",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/westgate-tavern-n-rosemary-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "623 N Rosemary St Lansing MI, 48917",
+        "cuisines": "American, Burgers, Sandwiches, Pizza, Fried Fish, Bars, American (Traditional)",
+        "categories": "American, Burgers, Sandwiches, Pizza, American"
+    },
+    {
+        "restaurant_id": 308,
+        "restaurant_name": "Potbelly Sandwich Shop - Jackson (465)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/potbelly-sandwich-shop-jackson-n-west-ave",
+        "yelp_rating": "0",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Healthy Food • Subs & Sandwiches",
+        "categories": "Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 309,
+        "restaurant_name": "Capitol City BBQ",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/capitol-city-bbq-saginaw-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Vietnamese Food • BBQ",
+        "categories": "Asian, American"
+    },
+    {
+        "restaurant_id": 310,
+        "restaurant_name": "Luzy's Tamales",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/luzys-tamales-s-cedar-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5920 S Cedar St Lansing MI, 48911",
+        "cuisines": "Mexican, Breakfast, Coffee & Tea, Breakfast & Brunch",
+        "categories": "Mexican, Breakfast, Breakfast"
+    },
+    {
+        "restaurant_id": 311,
+        "restaurant_name": "Old Chicago",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/old-chicago-w-grand-river-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "1938 W Grand River Ave Okemos MI, 48864",
+        "cuisines": "Salads, Pasta, Fish, Pizza, Calzones, Wings, Burgers, Sandwiches, American (Traditional), Sports Bars",
+        "categories": "Italian, Pizza, Wings, Burgers, Sandwiches, American"
+    },
+    {
+        "restaurant_id": 312,
+        "restaurant_name": "Korea House",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/korea-house-trowbridge-rd",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Korean Food • Japanese Food",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 313,
+        "restaurant_name": "Everyday Authentic Chinese Cuisine",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/everyday-authentic-chinese-cuisine-e-grand-river-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Chinese Food",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 314,
+        "restaurant_name": "La Fajita",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/la-fajita-w-thomas-l-pkwy",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "801 W Thomas L Pkwy Lansing MI, 48917",
+        "cuisines": "Mexican",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 315,
+        "restaurant_name": "Sultan's Express",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/sultans-express-s-washington-square",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "305 S Washington Square Lansing MI, 48933",
+        "cuisines": "Middle Eastern",
+        "categories": "Mediterranean, Mediterranean"
+    },
+    {
+        "restaurant_id": 316,
+        "restaurant_name": "Sir Pizza - E Cesar E Chavez Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/sir-pizza-e-cesar-e-chavez-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Pizza • Subs & Sandwiches",
+        "categories": "Pizza, Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 317,
+        "restaurant_name": "Jalapenos Mexican Restaurant",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/jalapenos-mexican-restaurant-s-washington-square",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Mexican Food",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 318,
+        "restaurant_name": "Asia Finest",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/asia-finest-s-cedar-st",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "6443 S Cedar St Lansing MI, 48911",
+        "cuisines": "Vietnamese",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 319,
+        "restaurant_name": "Veg Head",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/veg-head-s-washington-square",
+        "yelp_rating": "3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Vegan • Comfort Food",
+        "categories": ""
+    },
+    {
+        "restaurant_id": 320,
+        "restaurant_name": "Auntie Anne's - W Saginaw Hwy",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/auntie-annes-w-saginaw-hwy",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "5330 W Saginaw Hwy Lansing MI, 48917",
+        "cuisines": "Bakery, Fast Food, Pretzels, Desserts",
+        "categories": "Fast_Food, Dessert, Dessert"
+    },
+    {
+        "restaurant_id": 321,
+        "restaurant_name": "Sea House Fish & Chicken",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/sea-house-fish-and-chicken-e-michigan-ave",
+        "yelp_rating": "3",
+        "yelp_rating_count": "(0)",
+        "location_address": "2418 E Michigan Ave Lansing MI, 48912",
+        "cuisines": "Seafood, Chicken Wings, Desserts",
+        "categories": "Seafood, Wings, Wings, Dessert, Dessert"
+    },
+    {
+        "restaurant_id": 322,
+        "restaurant_name": "China Garden",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/china-garden-east-lansing",
+        "yelp_rating": "2.8",
+        "yelp_rating_count": "18 ratings",
+        "location_address": "1605 West Mount Hope Avenue Lansing MI, 48910",
+        "cuisines": "Chinese Food, Chinese",
+        "categories": "Asian, Asian"
+    },
+    {
+        "restaurant_id": 323,
+        "restaurant_name": "KFC - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/kfc-lansing",
+        "yelp_rating": "2.8",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Fast Food • Wings",
+        "categories": "Fast_Food, Wings"
+    },
+    {
+        "restaurant_id": 324,
+        "restaurant_name": "Big John Steak & Onion - N Clippert",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/big-johns-steak-and-onion-clippert",
+        "yelp_rating": "2.7",
+        "yelp_rating_count": "9 ratings",
+        "location_address": "748 N Clippert Lansing MI, 48912",
+        "cuisines": "Sandwiches, Burgers, Steakhouses",
+        "categories": "Sandwiches, Burgers"
+    },
+    {
+        "restaurant_id": 325,
+        "restaurant_name": "Olympic Broil",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/olympic-broil",
+        "yelp_rating": "2.6",
+        "yelp_rating_count": "7 ratings",
+        "location_address": "1320 N Grand River Lansing MI, 48906",
+        "cuisines": "Burgers, Sandwiches, American (Traditional), Hot Dogs, Fast Food",
+        "categories": "Burgers, Sandwiches, American, Fast_Food"
+    },
+    {
+        "restaurant_id": 326,
+        "restaurant_name": "Red Lobster - Lansing",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/red-lobster-lansing",
+        "yelp_rating": "2.3",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "American Food • Seafood",
+        "categories": "American, Seafood"
+    },
+    {
+        "restaurant_id": 327,
+        "restaurant_name": "Red Robin - Lansing, Saginaw Hwy",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/red-robin-gourmet-burgers-w-saginaw-hwy",
+        "yelp_rating": "1.7",
+        "yelp_rating_count": "5 ratings",
+        "location_address": "6524 W Saginaw Hwy Lansing MI, 48917",
+        "cuisines": "Burgers, Sandwiches, Fish, Chicken, Soups, Salads, Desserts, American (Traditional)",
+        "categories": "Burgers, Sandwiches, Wings, Dessert, Dessert, American"
+    },
+    {
+        "restaurant_id": 328,
+        "restaurant_name": "Backyard BarBQ",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/backyard-barbq",
+        "yelp_rating": "0",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Subs & Sandwiches • BBQ",
+        "categories": "Sandwiches, Sandwiches, American"
+    },
+    {
+        "restaurant_id": 329,
+        "restaurant_name": "Jersey Mike's Subs - E. Grand River Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/jersey-mikes-subs-e-grand-river-ave",
+        "yelp_rating": "0",
+        "yelp_rating_count": "(0)",
+        "location_address": "551 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "Subs, Sandwiches, Fast Food, Delis",
+        "categories": "Sandwiches, Sandwiches, Fast_Food, Sandwiches"
+    },
+    {
+        "restaurant_id": 330,
+        "restaurant_name": "Taqueria El Chaparrito",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/taqueria-el-chaparrito-lansing-w-saginaw-hwy",
+        "yelp_rating": "0",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Mexican Food",
+        "categories": "Mexican"
+    },
+    {
+        "restaurant_id": 331,
+        "restaurant_name": "LianPu Fine China",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/lianpu-fine-china-s-waverly-rd",
+        "yelp_rating": "0",
+        "yelp_rating_count": "(0)",
+        "location_address": "1701 S Waverly Rd Lansing MI, 48917",
+        "cuisines": "Chinese",
+        "categories": "Asian"
+    },
+    {
+        "restaurant_id": 332,
+        "restaurant_name": "Potbelly Sandwich Shop - MSU (129)",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/potbelly-sandwich-shop-msu-e-grand-river-ave",
+        "yelp_rating": "0",
+        "yelp_rating_count": "0 ratings",
+        "location_address": "No address provided",
+        "cuisines": "Healthy Food • Subs & Sandwiches",
+        "categories": "Sandwiches, Sandwiches"
+    },
+    {
+        "restaurant_id": 333,
+        "restaurant_name": "Capo's Cheesesteak Hoagies & Grill - E Grand River Ave",
+        "link": "https:\/\/eatstreet.com\/eastlansing-mi\/restaurants\/capos-cheesesteak-hoagies-and-grill-e-grand-river-ave",
+        "yelp_rating": "0",
+        "yelp_rating_count": "(0)",
+        "location_address": "219 E Grand River Ave East Lansing MI, 48823",
+        "cuisines": "Cheesesteaks, Sandwiches, Burgers",
+        "categories": "Sandwiches, Burgers"
+    }
+]
