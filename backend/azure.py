@@ -1,10 +1,10 @@
 import pyodbc
 
 if __name__ == '__main__':
-    server = 'tcp:grub.database.windows.net'
-    database = 'grub'
-    username = 'grubbington'
-    password = 'mommalovegrub123!'
+    server = 'tcp:PLACEHOLDER.database.windows.net'
+    database = 'PLACEHOLDER'
+    username = 'PLACEHOLDER'
+    password = 'PLACEHOLDER!'
     driver = '{ODBC Driver 17 for SQL Server}'
 
     cnxn = pyodbc.connect('DRIVER=' + driver +
